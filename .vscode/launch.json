@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OWWatch<unicentaopos>",
+            "request": "launch",
+            "mainClass": "com.openbravo.pos.admin.OWWatch",
+            "projectName": "unicentaopos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JFrmConfig<unicentaopos>",
+            "request": "launch",
+            "mainClass": "com.openbravo.pos.config.JFrmConfig",
+            "projectName": "unicentaopos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StartPOS<unicentaopos>",
+            "request": "launch",
+            "mainClass": "com.openbravo.pos.forms.StartPOS",
+            "projectName": "unicentaopos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FXWeb<unicentaopos>",
+            "request": "launch",
+            "mainClass": "com.openbravo.pos.util.FXWeb",
+            "projectName": "unicentaopos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SwingWorkerExample<unicentaopos>",
+            "request": "launch",
+            "mainClass": "com.openbravo.pos.util.SwingWorkerExample",
+            "projectName": "unicentaopos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UniBrowser<unicentaopos>",
+            "request": "launch",
+            "mainClass": "com.openbravo.pos.util.UniBrowser",
+            "projectName": "unicentaopos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VideoPlayer<unicentaopos>",
+            "request": "launch",
+            "mainClass": "com.openbravo.pos.util.VideoPlayer",
+            "projectName": "unicentaopos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OrderPop<unicentaopos>",
+            "request": "launch",
+            "mainClass": "com.unicenta.orderpop.OrderPop",
+            "projectName": "unicentaopos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JResetPickupID<unicentaopos>",
+            "request": "launch",
+            "mainClass": "com.unicenta.pos.resets.JResetPickupID",
+            "projectName": "unicentaopos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TransferPanel<unicentaopos>",
+            "request": "launch",
+            "mainClass": "com.unicenta.pos.transfer.TransferPanel",
+            "projectName": "unicentaopos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ElapsedTimeBetweenDates<unicentaopos>",
+            "request": "launch",
+            "mainClass": "com.unicenta.pos.util.ElapsedTimeBetweenDates",
+            "projectName": "unicentaopos"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ListDevices<unicentaopos>",
+            "request": "launch",
+            "mainClass": "org.usb4java.examples.ListDevices",
+            "projectName": "unicentaopos"
+        }
+    ]
+}
