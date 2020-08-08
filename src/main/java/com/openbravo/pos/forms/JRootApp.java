@@ -778,11 +778,12 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
            
             jScrollPane1.getViewport().setView(null);
 
-            JFlowPanel jPeople = new JFlowPanel();
+            JPanel jPeople = new JPanel();
             jPeople.applyComponentOrientation(getComponentOrientation());
-           
+            jPeople.setLayout( new javax.swing.BoxLayout(jPeople, javax.swing.BoxLayout.X_AXIS ) );
             java.util.List people = m_dlSystem.listPeopleVisible();
                      
+            jPeople.add(Box.createHorizontalGlue());
             for (Object people1 : people) {
                 AppUser user = (AppUser) people1;
                 JButton btn = new JButton(new AppUserAction(user));
@@ -790,14 +791,21 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
                 btn.setFocusPainted(false);
                 btn.setFocusable(false);
                 btn.setRequestFocusEnabled(false);
-                btn.setMaximumSize(new Dimension(110, 110));
-                btn.setPreferredSize(new Dimension(110, 110));
-                btn.setMinimumSize(new Dimension(110, 110));
+                int button_size = 220;
+                btn.setMaximumSize(new Dimension(button_size, button_size));
+                btn.setPreferredSize(new Dimension(button_size, button_size));
+                btn.setMinimumSize(new Dimension(button_size, button_size));
                 btn.setHorizontalAlignment(SwingConstants.CENTER);
                 btn.setHorizontalTextPosition(AbstractButton.CENTER);                 
                 btn.setVerticalTextPosition(AbstractButton.BOTTOM);
-                jPeople.add(btn);                    
+                
+                btn.setFont(UIManager.getDefaults().getFont(people1);
+                
+                jPeople.add(Box.createHorizontalStrut(20));
+                jPeople.add(btn); 
+                jPeople.add(Box.createHorizontalStrut(20));                 
             }
+            jPeople.add(Box.createHorizontalGlue());
 
             jScrollPane1.getViewport().setView(jPeople);
             
@@ -963,28 +971,28 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jButton1 = new javax.swing.JButton();
         m_jPanelTitle = new javax.swing.JPanel();
         m_jLblTitle = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         m_jPanelContainer = new javax.swing.JPanel();
         m_jPanelLogin = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        filler2 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 10), new java.awt.Dimension(32767, 0));
         jPanel5 = new javax.swing.JPanel();
-        m_jLogonName = new javax.swing.JPanel();
-        jPanel2 = new javax.swing.JPanel();
-        jPanel8 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jPanel1 = new javax.swing.JPanel();
         m_txtKeys = new javax.swing.JTextField();
         m_jClose = new javax.swing.JButton();
+        m_jLogonName = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
         m_jPanelDown = new javax.swing.JPanel();
         panelTask = new javax.swing.JPanel();
         m_jHost = new javax.swing.JLabel();
         webMemoryBar1 = new com.alee.extended.statusbar.WebMemoryBar();
         serverMonitor = new com.alee.laf.progressbar.WebProgressBar();
         jPanel3 = new javax.swing.JPanel();
+
+        jButton1.setText("jButton1");
 
         setEnabled(false);
         setPreferredSize(new java.awt.Dimension(1024, 768));
@@ -1009,33 +1017,9 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
 
         m_jPanelLogin.setLayout(new java.awt.BorderLayout());
 
-        jPanel4.setLayout(new javax.swing.BoxLayout(jPanel4, javax.swing.BoxLayout.Y_AXIS));
-
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/unicenta.png"))); // NOI18N
-        jLabel1.setText("MFCK Product ");
-        jLabel1.setAlignmentX(0.5F);
-        jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel1.setMaximumSize(new java.awt.Dimension(800, 1024));
-        jLabel1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jPanel4.add(jLabel1);
-        jPanel4.add(filler2);
-
-        m_jPanelLogin.add(jPanel4, java.awt.BorderLayout.CENTER);
+        jPanel4.setLayout(new javax.swing.OverlayLayout(jPanel4));
 
         jPanel5.setPreferredSize(new java.awt.Dimension(300, 400));
-
-        m_jLogonName.setLayout(new java.awt.BorderLayout());
-
-        jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 5, 0, 5));
-        jPanel2.setPreferredSize(new java.awt.Dimension(100, 100));
-        jPanel2.setLayout(new java.awt.BorderLayout());
-
-        jPanel8.setLayout(new java.awt.GridLayout(0, 1, 5, 5));
-        jPanel2.add(jPanel8, java.awt.BorderLayout.NORTH);
-
-        m_jLogonName.add(jPanel2, java.awt.BorderLayout.LINE_END);
 
         jScrollPane1.setBorder(null);
         jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
@@ -1053,6 +1037,7 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
         m_jClose.setText(AppLocal.getIntString("button.close")); // NOI18N
         m_jClose.setFocusPainted(false);
         m_jClose.setFocusable(false);
+        m_jClose.setMaximumSize(new java.awt.Dimension(62, 42));
         m_jClose.setPreferredSize(new java.awt.Dimension(100, 50));
         m_jClose.setRequestFocusEnabled(false);
         m_jClose.addActionListener(new java.awt.event.ActionListener() {
@@ -1061,55 +1046,72 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
             }
         });
 
+        m_jLogonName.setLayout(new java.awt.BorderLayout());
+
+        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/unicenta.png"))); // NOI18N
+        jLabel1.setText("MFCK Product ");
+        jLabel1.setAlignmentX(0.5F);
+        jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jLabel1.setMaximumSize(new java.awt.Dimension(64, 64));
+        jLabel1.setMinimumSize(new java.awt.Dimension(64, 64));
+        jLabel1.setPreferredSize(new java.awt.Dimension(64, 64));
+        jLabel1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+
         org.jdesktop.layout.GroupLayout jPanel1Layout = new org.jdesktop.layout.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(jPanel1Layout.createSequentialGroup()
-                .add(m_txtKeys, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .add(org.jdesktop.layout.GroupLayout.TRAILING, jPanel1Layout.createSequentialGroup()
-                .add(0, 0, Short.MAX_VALUE)
-                .add(m_jClose, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 295, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+                .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                    .add(m_txtKeys, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                    .add(jPanel1Layout.createSequentialGroup()
+                        .add(226, 226, 226)
+                        .add(m_jClose, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 488, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(310, Short.MAX_VALUE))
+            .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                .add(m_jLogonName, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 1024, Short.MAX_VALUE))
+            .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                .add(jLabel1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 1024, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(jPanel1Layout.createSequentialGroup()
                 .add(m_txtKeys, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 123, Short.MAX_VALUE)
-                .add(m_jClose, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 154, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 114, Short.MAX_VALUE)
+                .add(m_jClose, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 80, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .add(86, 86, 86))
+            .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                .add(jPanel1Layout.createSequentialGroup()
+                    .add(m_jLogonName, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 0, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                    .add(0, 280, Short.MAX_VALUE)))
+            .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                .add(jPanel1Layout.createSequentialGroup()
+                    .addContainerGap()
+                    .add(jLabel1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 160, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(108, Short.MAX_VALUE)))
         );
 
         org.jdesktop.layout.GroupLayout jPanel5Layout = new org.jdesktop.layout.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-            .add(jPanel5Layout.createSequentialGroup()
-                .add(0, 0, 0)
-                .add(jPanel5Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING, false)
-                    .add(jPanel1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .add(jScrollPane1))
-                .add(104, 104, 104)
-                .add(m_jLogonName, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                .add(0, 0, Short.MAX_VALUE))
+            .add(jPanel1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .add(jScrollPane1)
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(jPanel5Layout.createSequentialGroup()
-                .add(15, 15, 15)
-                .add(jPanel5Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                    .add(jPanel5Layout.createSequentialGroup()
-                        .add(m_jLogonName, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                        .add(434, 434, 434))
-                    .add(jPanel5Layout.createSequentialGroup()
-                        .add(jScrollPane1)
-                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                        .add(jPanel1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap())))
+                .add(9, 9, 9)
+                .add(jScrollPane1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 372, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .add(12, 12, 12)
+                .add(jPanel1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
         );
 
-        m_jPanelLogin.add(jPanel5, java.awt.BorderLayout.EAST);
+        jPanel4.add(jPanel5);
+
+        m_jPanelLogin.add(jPanel4, java.awt.BorderLayout.CENTER);
 
         m_jPanelContainer.add(m_jPanelLogin, "login");
 
@@ -1147,29 +1149,26 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
         add(m_jPanelDown, java.awt.BorderLayout.SOUTH);
     }// </editor-fold>//GEN-END:initComponents
 
+    private void m_jCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m_jCloseActionPerformed
+        tryToClose();
+    }//GEN-LAST:event_m_jCloseActionPerformed
 
     private void m_txtKeysKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_m_txtKeysKeyTyped
 
         m_txtKeys.setText("0");
         processKey(evt.getKeyChar());
-
     }//GEN-LAST:event_m_txtKeysKeyTyped
 
-    private void m_jCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m_jCloseActionPerformed
-        tryToClose();
-    }//GEN-LAST:event_m_jCloseActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.Box.Filler filler2;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel8;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JButton m_jClose;
     private javax.swing.JLabel m_jHost;

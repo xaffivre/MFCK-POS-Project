@@ -106,7 +106,6 @@ public class JFrmConfig extends javax.swing.JFrame {
                 config.load();    
                 
                 WebLookAndFeel.install ();                 
-                
 //                try {                    
 //                    UIManager.setLookAndFeel(config.getProperty("swing.defaultlaf"));
 //                } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {

@@ -36,6 +36,7 @@ import javax.swing.SwingUtilities;
 import org.pushingpixels.substance.api.SubstanceLookAndFeel;
 import org.pushingpixels.substance.api.SubstanceSkin;
 
+import com.formdev.flatlaf.FlatDarkLaf;
 
 public class StartPOS {
 
@@ -87,13 +88,16 @@ public class StartPOS {
             
             // Set the look and feel.
             try {
-                
+                //MUST NOT MODIFY lol
                 Object laf = Class.forName(config.getProperty("swing.defaultlaf")).newInstance();
                 if (laf instanceof LookAndFeel){
                     UIManager.setLookAndFeel((LookAndFeel) laf);
                 } else if (laf instanceof SubstanceSkin) {
                     SubstanceLookAndFeel.setSkin((SubstanceSkin) laf);
                 }
+                
+                UIManager.setLookAndFeel(new FlatDarkLaf());
+                
 // JG 6 May 2013 to multicatch
             } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {
                 logger.log(Level.WARNING, "Cannot set Look and Feel", e);
