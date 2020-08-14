@@ -507,44 +507,6 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
             m_jHost.setText("<html>" + m_props.getHost() + " - " + sWareHouse + "<br>" + url);
         
         
-        String newLogo = m_props.getProperty("start.logo");
-        if (newLogo != null) {
-           if ("".equals(newLogo)){
-                jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/logo.png")));
-           }else{
-                jLabel1.setIcon(new javax.swing.ImageIcon (newLogo));
-            }
-        }
-
-        String newText = m_props.getProperty("start.text");
-        if (newText != null) {
-            if (newText.equals("")){
-                jLabel1.setText("<html><center>uniCenta oPOS - Touch Friendly Point of Sale<br>" +
-                "Copyright \u00A9  uniCenta <br>" +
-                "https://unicenta.com/<br>" +
-                "<br>" +
-                "uniCenta oPOS is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.<br>" +
-                "<br>" +
-                "uniCenta oPOS is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.<br>" +
-                "<br>" +
-                "You should have received a copy of the GNU General Public License along with uniCenta oPOS.  If not, see http://www.gnu.org/licenses/<br>" +
-                "</center>");
-                
-            } else {
-                try {    
-                    String newTextCode = new Scanner(new File(newText)
-                        , "UTF-8").useDelimiter("\\A").next();
-                    jLabel1.setText(newTextCode);
-                }
-                    catch (FileNotFoundException e) {
-                }
-            
-                    jLabel1.setAlignmentX(0.5F);
-                    jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-                    jLabel1.setMaximumSize(new java.awt.Dimension(800, 1024));
-                    jLabel1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-            }
-        }
            
         showLogin();
         
@@ -984,7 +946,6 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
         m_txtKeys = new javax.swing.JTextField();
         m_jClose = new javax.swing.JButton();
         m_jLogonName = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
         m_jPanelDown = new javax.swing.JPanel();
         panelTask = new javax.swing.JPanel();
         m_jHost = new javax.swing.JLabel();
@@ -1048,17 +1009,6 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
 
         m_jLogonName.setLayout(new java.awt.BorderLayout());
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/unicenta.png"))); // NOI18N
-        jLabel1.setText("MFCK Product ");
-        jLabel1.setAlignmentX(0.5F);
-        jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel1.setMaximumSize(new java.awt.Dimension(64, 64));
-        jLabel1.setMinimumSize(new java.awt.Dimension(64, 64));
-        jLabel1.setPreferredSize(new java.awt.Dimension(64, 64));
-        jLabel1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-
         org.jdesktop.layout.GroupLayout jPanel1Layout = new org.jdesktop.layout.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -1072,8 +1022,6 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
                 .addContainerGap(310, Short.MAX_VALUE))
             .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                 .add(m_jLogonName, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 1024, Short.MAX_VALUE))
-            .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                .add(jLabel1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 1024, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
@@ -1086,11 +1034,6 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
                 .add(jPanel1Layout.createSequentialGroup()
                     .add(m_jLogonName, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 0, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                     .add(0, 280, Short.MAX_VALUE)))
-            .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                .add(jPanel1Layout.createSequentialGroup()
-                    .addContainerGap()
-                    .add(jLabel1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 160, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(108, Short.MAX_VALUE)))
         );
 
         org.jdesktop.layout.GroupLayout jPanel5Layout = new org.jdesktop.layout.GroupLayout(jPanel5);
@@ -1163,7 +1106,6 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel3;
