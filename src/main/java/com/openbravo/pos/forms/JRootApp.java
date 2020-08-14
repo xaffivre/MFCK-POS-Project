@@ -73,7 +73,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
-
+import java.awt.Font;
 
 /**
  *
@@ -760,8 +760,22 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
                 btn.setHorizontalAlignment(SwingConstants.CENTER);
                 btn.setHorizontalTextPosition(AbstractButton.CENTER);                 
                 btn.setVerticalTextPosition(AbstractButton.BOTTOM);
-                
-                btn.setFont(UIManager.getDefaults().getFont(people1);
+                //Font font = UIManager.getDefaults().getFont(people1);
+                //btn.setFont(font);
+                btn.setFont(new Font("MingLiU", Font.PLAIN, 25));
+                jPeople.add(Box.createHorizontalStrut(20));
+                if( "Administrator".equals(btn.getText()) ){
+                    btn.setText("管理員");
+                }
+                if( "Employee".equals(btn.getText()) ){
+                    btn.setText("員工");
+                }
+                if( "Manager".equals(btn.getText()) ){
+                    btn.setText("經理");
+                }
+                if( "Guest".equals(btn.getText()) ){
+                    btn.setText("客戶");
+                }
                 
                 jPeople.add(Box.createHorizontalStrut(20));
                 jPeople.add(btn); 
