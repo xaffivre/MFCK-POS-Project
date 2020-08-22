@@ -358,29 +358,32 @@ System.out.println("PanelContainer : Focus Lost");
         taxcategoriescollection = new ListKeyed<>(taxcategorieslist);
         
         taxcategoriesmodel = new ComboBoxValModel(taxcategorieslist);
-        m_jTax.setModel(taxcategoriesmodel);
+        //m_jTax.setModel(taxcategoriesmodel);
 
         String taxesid = m_jbtnconfig.getProperty("taxcategoryid");
 
-        if (taxesid == null) {
-            if (m_jTax.getItemCount() > 0) {
+        /*if (taxesid == null) {
+           if (m_jTax.getItemCount() > 0) {
                 m_jTax.setSelectedIndex(0);
             }
         } else {
             taxcategoriesmodel.setSelectedKey(taxesid);
         }              
-                
+        */ 
+        
         taxeslogic = new TaxesLogic(taxlist);
-        m_jaddtax.setSelected((Boolean.parseBoolean(m_App.getProperties().getProperty("till.taxincluded"))));             
-
+        m_jaddtax.setSelected((Boolean.parseBoolean(m_App.getProperties().getProperty("till.taxincluded"))));  
+        m_jaddtax.setVisible(false);
+        
+        /*
         if (m_App.getAppUserView().getUser().hasPermission("sales.ChangeTaxOptions")) {
-            m_jTax.setVisible(true);
+            //m_jTax.setVisible(true);
             m_jaddtax.setVisible(true);            
         } else {
-            m_jTax.setVisible(false);
+            //m_jTax.setVisible(false);
             m_jaddtax.setVisible(false);            
         }
-
+        */
         m_jDelete.setEnabled(m_App.getAppUserView().getUser().hasPermission("sales.EditLines"));
         m_jNumberKeys.setMinusEnabled(m_App.getAppUserView().getUser().hasPermission("sales.EditLines"));
         m_jNumberKeys.setEqualsEnabled(m_App.getAppUserView().getUser().hasPermission("sales.Total"));
@@ -504,7 +507,7 @@ System.out.println("PanelContainer : Focus Lost");
             m_ticketlines.clearTicketLines();
            
             m_jSubtotalEuros.setText(null);
-            m_jTaxesEuros.setText(null);
+            //m_jTaxesEuros.setText(null);
             m_jTotalEuros.setText(null); 
             jCheckStock.setText(null);
 
@@ -602,11 +605,11 @@ System.out.println("PanelContainer : Focus Lost");
             
         if (m_oTicket.getLinesCount() == 0) {
             m_jSubtotalEuros.setText(null);
-            m_jTaxesEuros.setText(null);
+            //m_jTaxesEuros.setText(null);
             m_jTotalEuros.setText(null);
         } else {
             m_jSubtotalEuros.setText(m_oTicket.printSubTotal());
-            m_jTaxesEuros.setText(m_oTicket.printTax());
+            //m_jTaxesEuros.setText(m_oTicket.printTax());
             m_jTotalEuros.setText(m_oTicket.printTotal());
         }
         repaint();
@@ -2318,10 +2321,8 @@ System.out.println("PanelContainer : Focus Lost");
         m_jTicketId = new javax.swing.JLabel();
         m_jPanTotals = new javax.swing.JPanel();
         m_jLblTotalEuros3 = new javax.swing.JLabel();
-        m_jLblTotalEuros2 = new javax.swing.JLabel();
         m_jLblTotalEuros1 = new javax.swing.JLabel();
         m_jSubtotalEuros = new javax.swing.JLabel();
-        m_jTaxesEuros = new javax.swing.JLabel();
         m_jTotalEuros = new javax.swing.JLabel();
         m_jContEntries = new javax.swing.JPanel();
         m_jPanEntries = new javax.swing.JPanel();
@@ -2331,7 +2332,6 @@ System.out.println("PanelContainer : Focus Lost");
         m_jPrice = new javax.swing.JLabel();
         m_jPor = new javax.swing.JLabel();
         m_jEnter = new javax.swing.JButton();
-        m_jTax = new javax.swing.JComboBox();
         m_jKeyFactory = new javax.swing.JTextField();
         catcontainer = new javax.swing.JPanel();
 
@@ -2629,12 +2629,6 @@ System.out.println("PanelContainer : Focus Lost");
         m_jLblTotalEuros3.setText(AppLocal.getIntString("label.subtotalcash")); // NOI18N
         m_jPanTotals.add(m_jLblTotalEuros3);
 
-        m_jLblTotalEuros2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        m_jLblTotalEuros2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        m_jLblTotalEuros2.setLabelFor(m_jSubtotalEuros);
-        m_jLblTotalEuros2.setText(AppLocal.getIntString("label.taxcash")); // NOI18N
-        m_jPanTotals.add(m_jLblTotalEuros2);
-
         m_jLblTotalEuros1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         m_jLblTotalEuros1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jLblTotalEuros1.setLabelFor(m_jTotalEuros);
@@ -2653,19 +2647,6 @@ System.out.println("PanelContainer : Focus Lost");
         m_jSubtotalEuros.setPreferredSize(new java.awt.Dimension(80, 25));
         m_jSubtotalEuros.setRequestFocusEnabled(false);
         m_jPanTotals.add(m_jSubtotalEuros);
-
-        m_jTaxesEuros.setBackground(m_jEditLine.getBackground());
-        m_jTaxesEuros.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        m_jTaxesEuros.setForeground(m_jEditLine.getForeground());
-        m_jTaxesEuros.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        m_jTaxesEuros.setLabelFor(m_jTaxesEuros);
-        m_jTaxesEuros.setToolTipText(bundle.getString("tooltip.saletax")); // NOI18N
-        m_jTaxesEuros.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true));
-        m_jTaxesEuros.setMaximumSize(new java.awt.Dimension(125, 25));
-        m_jTaxesEuros.setMinimumSize(new java.awt.Dimension(80, 25));
-        m_jTaxesEuros.setPreferredSize(new java.awt.Dimension(80, 25));
-        m_jTaxesEuros.setRequestFocusEnabled(false);
-        m_jPanTotals.add(m_jTaxesEuros);
 
         m_jTotalEuros.setBackground(m_jEditLine.getBackground());
         m_jTotalEuros.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
@@ -2741,12 +2722,6 @@ System.out.println("PanelContainer : Focus Lost");
             }
         });
 
-        m_jTax.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        m_jTax.setToolTipText(bundle.getString("tooltip.salestaxswitch")); // NOI18N
-        m_jTax.setFocusable(false);
-        m_jTax.setPreferredSize(new java.awt.Dimension(28, 25));
-        m_jTax.setRequestFocusEnabled(false);
-
         m_jKeyFactory.setEditable(false);
         m_jKeyFactory.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         m_jKeyFactory.setForeground(javax.swing.UIManager.getDefaults().getColor("Panel.background"));
@@ -2775,9 +2750,7 @@ System.out.println("PanelContainer : Focus Lost");
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addComponent(m_jaddtax, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGap(7, 7, 7)
-                        .addComponent(m_jTax, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
+                        .addGap(141, 141, 141))
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addComponent(m_jPrice, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGap(5, 5, 5)))
@@ -2792,9 +2765,7 @@ System.out.println("PanelContainer : Focus Lost");
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addComponent(m_jPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 7, Short.MAX_VALUE)
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(m_jTax, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(m_jaddtax, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addComponent(m_jaddtax, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
                 .addComponent(m_jPor)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -2896,37 +2867,6 @@ System.out.println("PanelContainer : Focus Lost");
         }
         
     }//GEN-LAST:event_m_jListActionPerformed
-
-    private void jEditAttributesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jEditAttributesActionPerformed
-       if (listener  != null) {
-            listener.stop();
-        } 
-        int i = m_ticketlines.getSelectedIndex();
-        if (i < 0) {
-            Toolkit.getDefaultToolkit().beep(); // no line selected
-        } else {
-            try {
-                TicketLineInfo line = m_oTicket.getLine(i);
-                JProductAttEdit2 attedit = JProductAttEdit2.getAttributesEditor(this, m_App.getSession());
-                attedit.editAttributes(line.getProductAttSetId(), line.getProductAttSetInstId());
-                attedit.setVisible(true);
-                if (attedit.isOK()) {
-                    line.setProductAttSetInstId(attedit.getAttributeSetInst());
-                    line.setProductAttSetInstDesc(attedit.getAttributeSetInstDescription());
-                    paintTicketLine(i, line);
-                }
-            } catch (BasicException ex) {
-                JOptionPane.showMessageDialog(this, 
-                    AppLocal.getIntString("message.cannotfindattributes"), 
-                    AppLocal.getIntString("message.title"), 
-                    JOptionPane.INFORMATION_MESSAGE);
-            }
-        }
-
-        if (listener  != null){           
-            listener.restart(); 
-        }
-}//GEN-LAST:event_jEditAttributesActionPerformed
 
     private void jbtnMooringActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnMooringActionPerformed
 // Display vessel selection box on screen if reply is good add to the ticket
@@ -3287,6 +3227,37 @@ System.out.println("PanelContainer : Focus Lost");
     private void m_jPanContainerFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_m_jPanContainerFocusLost
         jPanContainerFocusLost(evt);
     }//GEN-LAST:event_m_jPanContainerFocusLost
+
+    private void jEditAttributesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jEditAttributesActionPerformed
+        if (listener  != null) {
+            listener.stop();
+        }
+        int i = m_ticketlines.getSelectedIndex();
+        if (i < 0) {
+            Toolkit.getDefaultToolkit().beep(); // no line selected
+        } else {
+            try {
+                TicketLineInfo line = m_oTicket.getLine(i);
+                JProductAttEdit2 attedit = JProductAttEdit2.getAttributesEditor(this, m_App.getSession());
+                attedit.editAttributes(line.getProductAttSetId(), line.getProductAttSetInstId());
+                attedit.setVisible(true);
+                if (attedit.isOK()) {
+                    line.setProductAttSetInstId(attedit.getAttributeSetInst());
+                    line.setProductAttSetInstDesc(attedit.getAttributeSetInstDescription());
+                    paintTicketLine(i, line);
+                }
+            } catch (BasicException ex) {
+                JOptionPane.showMessageDialog(this,
+                    AppLocal.getIntString("message.cannotfindattributes"),
+                    AppLocal.getIntString("message.title"),
+                    JOptionPane.INFORMATION_MESSAGE);
+            }
+        }
+
+        if (listener  != null){
+            listener.restart();
+        }
+    }//GEN-LAST:event_jEditAttributesActionPerformed
                                        
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnReprint1;
@@ -3312,7 +3283,6 @@ System.out.println("PanelContainer : Focus Lost");
     private javax.swing.JButton m_jEnter;
     private javax.swing.JTextField m_jKeyFactory;
     private javax.swing.JLabel m_jLblTotalEuros1;
-    private javax.swing.JLabel m_jLblTotalEuros2;
     private javax.swing.JLabel m_jLblTotalEuros3;
     private javax.swing.JButton m_jList;
     private com.openbravo.beans.JNumberKeys m_jNumberKeys;
@@ -3327,8 +3297,6 @@ System.out.println("PanelContainer : Focus Lost");
     private javax.swing.JLabel m_jPor;
     private javax.swing.JLabel m_jPrice;
     private javax.swing.JLabel m_jSubtotalEuros;
-    private javax.swing.JComboBox m_jTax;
-    private javax.swing.JLabel m_jTaxesEuros;
     private javax.swing.JLabel m_jTicketId;
     private javax.swing.JLabel m_jTotalEuros;
     private com.alee.extended.button.WebSwitch m_jaddtax;
