@@ -36,7 +36,7 @@
 	<!-- <button key="button.note" image="img.refundit" code="script.addlinenote"/> -->        
                 
 	<!-- SET Line or Total Discount (Default=TotalDiscount= ENABLED) -->
-	<button key="button.Totaldiscount" image="img.discount" code="script.Totaldiscount"/>
+	<!--<button key="button.Totaldiscount" image="img.discount" code="script.Totaldiscount"/> -->
 	<button key="button.Linediscount" image="img.discount_b" code="script.Linediscount"/>
 
 	<!-- SET Waiter's name (Default=DISABLED) -->

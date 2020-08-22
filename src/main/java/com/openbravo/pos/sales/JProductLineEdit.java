@@ -92,23 +92,23 @@ public class JProductLineEdit extends javax.swing.JDialog {
 //        m_jName.setEnabled(app.getAppUserView().getUser().hasPermission("com.openbravo.pos.sales.JPanelTicketEdits"));
         m_jUnits.setEnabled(app.getAppUserView().getUser().hasPermission("com.openbravo.pos.sales.JPanelTicketEdits"));        
         m_jPrice.setEnabled(app.getAppUserView().getUser().hasPermission("com.openbravo.pos.sales.JPanelTicketEdits"));
-        m_jPriceTax.setEnabled(app.getAppUserView().getUser().hasPermission("com.openbravo.pos.sales.JPanelTicketEdits"));
+        //m_jPriceTax.setEnabled(app.getAppUserView().getUser().hasPermission("com.openbravo.pos.sales.JPanelTicketEdits"));
         
         m_jName.setText(oLine.getProductName());        
         m_jUnits.setDoubleValue(oLine.getMultiply());
         m_jPrice.setDoubleValue(oLine.getPrice()); 
-        m_jPriceTax.setDoubleValue(oLine.getPriceTax());
-        m_jTaxrate.setText(oLine.getTaxInfo().getName());
+        //m_jPriceTax.setDoubleValue(oLine.getPriceTax());
+        //m_jTaxrate.setText(oLine.getTaxInfo().getName());
         
         m_jName.addPropertyChangeListener("Edition", new RecalculateName());
         m_jUnits.addPropertyChangeListener("Edition", new RecalculateUnits());
         m_jPrice.addPropertyChangeListener("Edition", new RecalculatePrice());
-        m_jPriceTax.addPropertyChangeListener("Edition", new RecalculatePriceTax());
+        //m_jPriceTax.addPropertyChangeListener("Edition", new RecalculatePriceTax());
 
         m_jName.addEditorKeys(m_jKeys);
         m_jUnits.addEditorKeys(m_jKeys);
         m_jPrice.addEditorKeys(m_jKeys);
-        m_jPriceTax.addEditorKeys(m_jKeys);
+        //m_jPriceTax.addEditorKeys(m_jKeys);
         
         if (m_jName.isEnabled()) {
             m_jName.activate();
@@ -156,13 +156,13 @@ public class JProductLineEdit extends javax.swing.JDialog {
     private class RecalculatePrice implements PropertyChangeListener {
         @Override
         public void propertyChange(PropertyChangeEvent evt) {
-
+            
             Double value = m_jPrice.getDoubleValue();
             if (value == null || value == 0.0) {
                 m_bpriceok = false;
             } else {
                 m_oLine.setPrice(value);
-                m_jPriceTax.setDoubleValue(m_oLine.getPriceTax());
+                //m_jPriceTax.setDoubleValue(m_oLine.getPriceTax());
                 m_bpriceok = true;
                 m_jBtnPriceUpdate.setEnabled(AppConfig.getInstance().getBoolean("db.prodpriceupdate"));                
             }
@@ -175,7 +175,7 @@ public class JProductLineEdit extends javax.swing.JDialog {
         @Override
         public void propertyChange(PropertyChangeEvent evt) {
 
-            Double value = m_jPriceTax.getDoubleValue();
+            Double value = 0.0;//m_jPriceTax.getDoubleValue();
             if (value == null || value == 0.0) {
                 m_bpriceok = false;
             } else {
@@ -242,13 +242,9 @@ public class JProductLineEdit extends javax.swing.JDialog {
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         m_jName = new com.openbravo.editor.JEditorString();
         m_jUnits = new com.openbravo.editor.JEditorDouble();
         m_jPrice = new com.openbravo.editor.JEditorCurrency();
-        m_jPriceTax = new com.openbravo.editor.JEditorCurrency();
-        m_jTaxrate = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         m_jTotal = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
@@ -277,10 +273,6 @@ public class JProductLineEdit extends javax.swing.JDialog {
         jLabel2.setText(AppLocal.getIntString("label.units")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel3.setText(AppLocal.getIntString("label.pricetax")); // NOI18N
-        jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
-
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(132, 30));
 
@@ -291,22 +283,6 @@ public class JProductLineEdit extends javax.swing.JDialog {
         m_jPrice.setEnabled(false);
         m_jPrice.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPrice.setPreferredSize(new java.awt.Dimension(132, 30));
-
-        m_jPriceTax.setEnabled(false);
-        m_jPriceTax.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        m_jPriceTax.setPreferredSize(new java.awt.Dimension(132, 30));
-
-        m_jTaxrate.setBackground(javax.swing.UIManager.getDefaults().getColor("TextField.disabledBackground"));
-        m_jTaxrate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        m_jTaxrate.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        m_jTaxrate.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
-        m_jTaxrate.setOpaque(true);
-        m_jTaxrate.setPreferredSize(new java.awt.Dimension(150, 25));
-        m_jTaxrate.setRequestFocusEnabled(false);
-
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel5.setText(AppLocal.getIntString("label.tax")); // NOI18N
-        jLabel5.setPreferredSize(new java.awt.Dimension(110, 30));
 
         jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.totalcash")); // NOI18N
@@ -361,33 +337,24 @@ public class JProductLineEdit extends javax.swing.JDialog {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(m_jUnits, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(m_jPriceTax, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(m_jPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
+                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(m_jSubtotal, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGap(116, 116, 116)
-                                .addComponent(m_jTaxrate, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(m_jBtnPriceUpdate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(m_jTotal, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                            .addComponent(m_jBtnPriceUpdate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(m_jTotal, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(m_jName, javax.swing.GroupLayout.PREFERRED_SIZE, 354, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(m_jName, javax.swing.GroupLayout.PREFERRED_SIZE, 354, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(m_jSubtotal, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(60, 60, 60))
         );
         jPanel2Layout.setVerticalGroup(
@@ -395,26 +362,15 @@ public class JProductLineEdit extends javax.swing.JDialog {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(m_jName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(33, 33, 33)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(m_jUnits, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(m_jPrice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(m_jPriceTax, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(9, 9, 9)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(1, 1, 1)
-                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addComponent(m_jTaxrate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(m_jPrice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(64, 64, 64)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(m_jSubtotal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -538,7 +494,7 @@ public class JProductLineEdit extends javax.swing.JDialog {
         } catch (SQLException e) {
             System.out.println(e);
 
-            return;
+            return;attr
         }
 
         m_oLine.setUpdated(true);
@@ -547,8 +503,6 @@ public class JProductLineEdit extends javax.swing.JDialog {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
@@ -562,9 +516,7 @@ public class JProductLineEdit extends javax.swing.JDialog {
     private com.openbravo.editor.JEditorKeys m_jKeys;
     private com.openbravo.editor.JEditorString m_jName;
     private com.openbravo.editor.JEditorCurrency m_jPrice;
-    private com.openbravo.editor.JEditorCurrency m_jPriceTax;
     private javax.swing.JLabel m_jSubtotal;
-    private javax.swing.JLabel m_jTaxrate;
     private javax.swing.JLabel m_jTotal;
     private com.openbravo.editor.JEditorDouble m_jUnits;
     // End of variables declaration//GEN-END:variables

@@ -30,6 +30,8 @@ import com.openbravo.pos.ticket.TicketProductInfo;
 
 discountrate = sales.getInputValue() / 100.0;
 
+// public TicketLineInfo(String productname, String producttaxcategory, String productprinter, double dMultiply, double dPrice, TaxInfo tax) {
+
 index = sales.getSelectedIndex();
 if (index >= 0) {
     if (ticket.getTotal() > 0.0 && discountrate > 0.0) {
@@ -38,7 +40,6 @@ if (index >= 0) {
             line = ticket.getLine(number);
             ticket.setLine(number,
             new TicketLineInfo(
-                    line.getProductID(),
                     line.getProductName() + " - Item Discount @  " + sdiscount,
                     line.getProductTaxCategoryID(),
                     line.getProductPrinter(),

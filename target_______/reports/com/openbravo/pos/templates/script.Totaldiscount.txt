@@ -38,7 +38,6 @@ if (index >= 0) {
             line = ticket.getLine(number);
             ticket.setLine(number,
             new TicketLineInfo(
-                    line.getProductID(),
                     line.getProductName() + " - Item Discount @  " + sdiscount,
                     line.getProductTaxCategoryID(),
                     line.getProductPrinter(),
