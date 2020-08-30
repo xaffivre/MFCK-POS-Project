@@ -211,8 +211,12 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         jTabbedPane1.removeTabAt(1);
         jTabbedPane1.removeTabAt(1);
         jTabbedPane1.removeTabAt(2); //dont delete image
-            init();
-    }
+        jLabel13.setVisible(false);
+        m_jAtt.setVisible(false);
+        m_jVerpatrib.setVisible(false);
+        jLabel26.setVisible(false);
+        m_jUom.setVisible(false);
+   }
     
     private void init() {
         writeValueEOF(); 
@@ -1316,6 +1320,11 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         m_jAtt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jAtt.setPreferredSize(new java.awt.Dimension(200, 30));
+        m_jAtt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m_jAttActionPerformed(evt);
+            }
+        });
 
         jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel7.setText(AppLocal.getIntString("label.taxcategorym")); // NOI18N
@@ -2278,6 +2287,10 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             m_jCatalogOrder.setText(null);
         }
     }//GEN-LAST:event_m_jInCatalogActionPerformed
+
+    private void m_jAttActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m_jAttActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_m_jAttActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private com.alee.extended.colorchooser.WebColorPicker colourChooser;
