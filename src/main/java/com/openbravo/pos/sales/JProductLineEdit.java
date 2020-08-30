@@ -494,7 +494,7 @@ public class JProductLineEdit extends javax.swing.JDialog {
         } catch (SQLException e) {
             System.out.println(e);
 
-            return;attr
+            return;
         }
 
         m_oLine.setUpdated(true);

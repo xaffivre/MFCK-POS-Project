@@ -36,8 +36,6 @@ import javax.swing.SwingUtilities;
 import org.pushingpixels.substance.api.SubstanceLookAndFeel;
 import org.pushingpixels.substance.api.SubstanceSkin;
 
-import com.formdev.flatlaf.FlatDarkLaf;
-
 public class StartPOS {
 
     private static final Logger logger = Logger.getLogger("com.openbravo.pos.forms.StartPOS");
@@ -95,8 +93,6 @@ public class StartPOS {
                 } else if (laf instanceof SubstanceSkin) {
                     SubstanceLookAndFeel.setSkin((SubstanceSkin) laf);
                 }
-                
-                UIManager.setLookAndFeel(new FlatDarkLaf());
                 
 // JG 6 May 2013 to multicatch
             } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {

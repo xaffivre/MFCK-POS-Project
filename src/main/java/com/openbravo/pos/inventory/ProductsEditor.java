@@ -207,11 +207,16 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         m_jdate.getDocument().addDocumentListener(dirty);        
         
+        //Hide unused tabs
+        jTabbedPane1.removeTabAt(1);
+        jTabbedPane1.removeTabAt(1);
+        jTabbedPane1.removeTabAt(2); //dont delete image
             init();
     }
     
     private void init() {
         writeValueEOF(); 
+        
     }        
 
     /**
@@ -349,7 +354,7 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         calculateMargin();
         calculatePriceSellTax();
         calculateGP();
-        
+
     }
 
     @Override
@@ -1737,8 +1742,7 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(m_jstockvolume, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(m_jstockcost, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(0, 0, 0))
+                                    .addComponent(m_jstockcost, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addGroup(jPanel2Layout.createSequentialGroup()
@@ -2115,15 +2119,28 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
                 .addContainerGap(58, Short.MAX_VALUE))
         );
 
+        jPanel4.setVisible(false);
+
         jTabbedPane1.addTab(AppLocal.getIntString("label.button"), jPanel4); // NOI18N
+        jPanel4.setVisible(false);
 
         add(jTabbedPane1);
         jTabbedPane1.setBounds(10, 10, 630, 420);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButtonHTMLActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonHTMLActionPerformed
-        setButtonHTML();
-    }//GEN-LAST:event_jButtonHTMLActionPerformed
+    private void jBtnSupplierActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnSupplierActionPerformed
+        JDialogNewSupplier dialog = JDialogNewSupplier.getDialog(this, appView);
+        dialog.setVisible(true);
+
+        if (dialog.getSelectedSupplier()!=null){
+            try {
+                m_SuppliersModel = new ComboBoxValModel(m_sentsuppliers.list());
+                m_jSupplier.setModel(m_SuppliersModel);
+            } catch (BasicException ex) {
+                Logger.getLogger(ProductsEditor.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    }//GEN-LAST:event_jBtnSupplierActionPerformed
 
     private void none(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_none
 
@@ -2131,11 +2148,17 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
     private void m_jNameFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_m_jNameFocusLost
         setDisplay(btn);
-//        if (m_jName.getText().contains("&")) {
-//            JOptionPane.showMessageDialog(null, 
-//                AppLocal.getIntString("message.ampersand"));
-//        }        
+        //        if (m_jName.getText().contains("&")) {
+            //            JOptionPane.showMessageDialog(null,
+                //                AppLocal.getIntString("message.ampersand"));
+            //        }
     }//GEN-LAST:event_m_jNameFocusLost
+
+    private void m_jCodeFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_m_jCodeFocusLost
+        if (m_jCode.getText().length()< 8) {
+            m_jCodetype.setSelectedIndex(2);
+        }
+    }//GEN-LAST:event_m_jCodeFocusLost
 
     private void m_jRefFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_m_jRefFocusLost
         setCode();
@@ -2148,11 +2171,64 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             StringSelection stringSelection = new StringSelection(uuidString);
             Clipboard clpbrd = Toolkit.getDefaultToolkit().getSystemClipboard();
             clpbrd.setContents(stringSelection, null);
-        
-            JOptionPane.showMessageDialog(null, 
+
+            JOptionPane.showMessageDialog(null,
                 AppLocal.getIntString("message.uuidcopy"));
         }
     }//GEN-LAST:event_jLabel1MouseClicked
+
+    private void colourChooserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_colourChooserActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_colourChooserActionPerformed
+
+    private void jBtnStyleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnStyleActionPerformed
+        btn=9;
+        setDisplay(btn);
+    }//GEN-LAST:event_jBtnStyleActionPerformed
+
+    private void jBtnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnResetActionPerformed
+        btn=8;
+        setDisplay(btn);
+    }//GEN-LAST:event_jBtnResetActionPerformed
+
+    private void jBtnImageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnImageActionPerformed
+        btn=7;
+        setDisplay(btn);
+    }//GEN-LAST:event_jBtnImageActionPerformed
+
+    private void jBtnItalicActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnItalicActionPerformed
+        btn=6;
+        setDisplay(btn);
+    }//GEN-LAST:event_jBtnItalicActionPerformed
+
+    private void jBtnBoldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnBoldActionPerformed
+        btn=5;
+        setDisplay(btn);
+    }//GEN-LAST:event_jBtnBoldActionPerformed
+
+    private void jBtnSmallActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnSmallActionPerformed
+        btn=4;
+        setDisplay(btn);
+    }//GEN-LAST:event_jBtnSmallActionPerformed
+
+    private void jBtnLargeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnLargeActionPerformed
+        btn=3;
+        setDisplay(btn);
+    }//GEN-LAST:event_jBtnLargeActionPerformed
+
+    private void jBtnColourActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnColourActionPerformed
+        btn=2;
+        setDisplay(btn);
+    }//GEN-LAST:event_jBtnColourActionPerformed
+
+    private void jBtnBreakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnBreakActionPerformed
+        btn=1;
+        setDisplay(btn);
+    }//GEN-LAST:event_jBtnBreakActionPerformed
+
+    private void jButtonHTMLActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonHTMLActionPerformed
+        setButtonHTML();
+    }//GEN-LAST:event_jButtonHTMLActionPerformed
 
     private void jBtnXmlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnXmlActionPerformed
         txtAttributes.setText(
@@ -2162,75 +2238,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             "    <entry key=\"identifier\">value</entry>\n" +
             "</properties>");
     }//GEN-LAST:event_jBtnXmlActionPerformed
-
-    private void jBtnSmallActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnSmallActionPerformed
-        btn=4;
-        setDisplay(btn);
-    }//GEN-LAST:event_jBtnSmallActionPerformed
-
-    private void jBtnBreakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnBreakActionPerformed
-        btn=1;
-        setDisplay(btn);
-    }//GEN-LAST:event_jBtnBreakActionPerformed
-
-    private void jBtnColourActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnColourActionPerformed
-        btn=2;
-        setDisplay(btn);
-    }//GEN-LAST:event_jBtnColourActionPerformed
-
-    private void jBtnLargeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnLargeActionPerformed
-        btn=3;
-        setDisplay(btn);
-    }//GEN-LAST:event_jBtnLargeActionPerformed
-
-    private void jBtnBoldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnBoldActionPerformed
-        btn=5;
-        setDisplay(btn);
-    }//GEN-LAST:event_jBtnBoldActionPerformed
-
-    private void jBtnItalicActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnItalicActionPerformed
-        btn=6;
-        setDisplay(btn);
-    }//GEN-LAST:event_jBtnItalicActionPerformed
-
-    private void jBtnImageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnImageActionPerformed
-        btn=7;
-        setDisplay(btn);
-    }//GEN-LAST:event_jBtnImageActionPerformed
-
-    private void jBtnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnResetActionPerformed
-        btn=8;
-        setDisplay(btn);
-    }//GEN-LAST:event_jBtnResetActionPerformed
-
-    private void jBtnStyleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnStyleActionPerformed
-        btn=9;
-        setDisplay(btn);
-    }//GEN-LAST:event_jBtnStyleActionPerformed
-
-    private void jBtnSupplierActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnSupplierActionPerformed
-        JDialogNewSupplier dialog = JDialogNewSupplier.getDialog(this, appView);
-        dialog.setVisible(true);
-  
-        if (dialog.getSelectedSupplier()!=null){
-            try {
-                m_SuppliersModel = new ComboBoxValModel(m_sentsuppliers.list());
-                m_jSupplier.setModel(m_SuppliersModel);
-            } catch (BasicException ex) {
-                Logger.getLogger(ProductsEditor.class.getName()).log(Level.SEVERE, null, ex);
-            }
-        }
-    }//GEN-LAST:event_jBtnSupplierActionPerformed
-
-    private void colourChooserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_colourChooserActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_colourChooserActionPerformed
-
-    private void m_jCodeFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_m_jCodeFocusLost
-        if (m_jCode.getText().length()< 8) {
-            m_jCodetype.setSelectedIndex(2);
-        }
-    }//GEN-LAST:event_m_jCodeFocusLost
 
     private void m_jbtndateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m_jbtndateActionPerformed
 
