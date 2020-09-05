@@ -119,15 +119,19 @@ public class JPrincipalApp extends javax.swing.JPanel implements AppUserView {
         showView("<NULL>");
         
         try {
-
-            m_jPanelLeft.setViewportView(getScriptMenu(
-            m_dlSystem.getResourceAsText("Menu.Root")));
+            Component test_component = getScriptMenu(m_dlSystem.getResourceAsText("Menu.Root")); 
+            test_component.setFont(new java.awt.Font("MingLiU",0,16));
+            m_jPanelLeft.setFont(new java.awt.Font("MingLiU",0,16));
+            m_jPanelLeft.setViewportView(test_component);
             
         } catch (ScriptException e) {
             logger.log(Level.SEVERE, "Cannot read Menu.Root resource. Trying default menu.", e);
             try {
-                m_jPanelLeft.setViewportView(getScriptMenu(
-                    StringUtils.readResource("/com/openbravo/pos/templates/Menu.Root.txt")));
+                Component test_component = getScriptMenu(StringUtils.readResource("/com/openbravo/pos/templates/Menu.Root.txt"));
+                test_component.setFont(new java.awt.Font("MingLiU",0,16));
+                m_jPanelLeft.setViewportView(test_component);
+                m_jPanelLeft.setFont(new java.awt.Font("MingLiU",0,16));
+                
             } catch (    IOException | ScriptException ex) {
                 logger.log(Level.SEVERE, "Cannot read default menu", ex);
             }
@@ -158,6 +162,7 @@ public class JPrincipalApp extends javax.swing.JPanel implements AppUserView {
         
         private ScriptMenu() {
             taskPane = new JXTaskPaneContainer();
+            taskPane.setFont(new java.awt.Font("MingLiU",0,16));
             taskPane.applyComponentOrientation(getComponentOrientation());
         }
         
@@ -570,7 +575,7 @@ public class JPrincipalApp extends javax.swing.JPanel implements AppUserView {
         m_jTitle = new javax.swing.JLabel();
         m_jPanelContainer = new javax.swing.JPanel();
 
-        setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setLayout(new java.awt.BorderLayout());
 
         jPanel1.setLayout(new java.awt.BorderLayout());
@@ -635,7 +640,7 @@ public class JPrincipalApp extends javax.swing.JPanel implements AppUserView {
 
         m_jPanelRight.add(m_jPanelTitle, java.awt.BorderLayout.NORTH);
 
-        m_jPanelContainer.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        m_jPanelContainer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPanelContainer.setLayout(new java.awt.CardLayout());
         m_jPanelRight.add(m_jPanelContainer, java.awt.BorderLayout.CENTER);
 
