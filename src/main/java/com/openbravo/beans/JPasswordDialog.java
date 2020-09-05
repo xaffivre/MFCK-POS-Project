@@ -153,7 +153,7 @@ public class JPasswordDialog extends javax.swing.JDialog {
 
         jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
-        jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdCancel.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setMargin(new java.awt.Insets(8, 16, 8, 16));
         jcmdCancel.setPreferredSize(new java.awt.Dimension(80, 45));
@@ -164,7 +164,7 @@ public class JPasswordDialog extends javax.swing.JDialog {
         });
         jPanel1.add(jcmdCancel);
 
-        jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdOK.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setMargin(new java.awt.Insets(8, 16, 8, 16));
         jcmdOK.setPreferredSize(new java.awt.Dimension(80, 45));
@@ -197,7 +197,7 @@ public class JPasswordDialog extends javax.swing.JDialog {
         jPanel4.setPreferredSize(new java.awt.Dimension(120, 30));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
-        m_jpassword.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jpassword.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jpassword.setPreferredSize(new java.awt.Dimension(110, 30));
         jPanel4.add(m_jpassword, java.awt.BorderLayout.CENTER);
 

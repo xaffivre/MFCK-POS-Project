@@ -204,16 +204,16 @@ public class AuxiliarFilter extends javax.swing.JPanel implements ReportEditorCr
         m_jSearch = new javax.swing.JTextField();
         search = new javax.swing.JButton();
 
-        setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(750, 130));
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.prodref")); // NOI18N
         jLabel6.setMaximumSize(new java.awt.Dimension(50, 20));
         jLabel6.setMinimumSize(new java.awt.Dimension(50, 20));
         jLabel6.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jReference1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jReference1.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jReference1.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jReference1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -230,11 +230,11 @@ public class AuxiliarFilter extends javax.swing.JPanel implements ReportEditorCr
             }
         });
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel7.setText(AppLocal.getIntString("label.prodbarcode")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jBarcode1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jBarcode1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jBarcode1.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jBarcode1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -252,7 +252,7 @@ public class AuxiliarFilter extends javax.swing.JPanel implements ReportEditorCr
         });
 
         m_jSearch.setEditable(false);
-        m_jSearch.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSearch.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jSearch.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         m_jSearch.setFocusable(false);
         m_jSearch.setPreferredSize(new java.awt.Dimension(70, 30));

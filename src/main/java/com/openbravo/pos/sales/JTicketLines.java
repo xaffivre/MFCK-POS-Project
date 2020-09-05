@@ -103,7 +103,7 @@ public class JTicketLines extends javax.swing.JPanel {
         m_jScrollTableTicket.getVerticalScrollBar().setPreferredSize(new Dimension(35, 35));
        
       // set font for headers
-        Font f = new Font("Arial", Font.BOLD, 14);
+        Font f = new Font("MingLiU", Font.BOLD, 14);
         JTableHeader header = m_jTicketTable.getTableHeader();
         header.setFont(f);
       
@@ -468,9 +468,9 @@ public class JTicketLines extends javax.swing.JPanel {
 
         m_jScrollTableTicket.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         m_jScrollTableTicket.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
-        m_jScrollTableTicket.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jScrollTableTicket.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
 
-        m_jTicketTable.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTicketTable.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jTicketTable.setFocusable(false);
         m_jTicketTable.setIntercellSpacing(new java.awt.Dimension(0, 1));
         m_jTicketTable.setRequestFocusEnabled(false);

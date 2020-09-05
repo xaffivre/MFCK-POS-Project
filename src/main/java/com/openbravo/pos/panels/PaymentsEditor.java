@@ -274,22 +274,22 @@ public final class PaymentsEditor extends javax.swing.JPanel implements EditorRe
 
         setLayout(new java.awt.BorderLayout());
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel5.setText(AppLocal.getIntString("label.paymentreason")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jreason.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jreason.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jreason.setFocusable(false);
         m_jreason.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.paymenttotal")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jTotal.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTotal.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTotal.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        m_jNotes.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jNotes.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jNotes.setPreferredSize(new java.awt.Dimension(132, 100));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);

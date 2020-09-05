@@ -154,28 +154,28 @@ public class ProductFilterSales extends javax.swing.JPanel implements EditorCrea
         jLabel1 = new javax.swing.JLabel();
         jBtnReset = new javax.swing.JButton();
 
-        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(410, 200));
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel5.setText(AppLocal.getIntString("label.prodname")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jtxtName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jtxtName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jtxtName.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.prodcategory")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCategory.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jCategory.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel4.setText(AppLocal.getIntString("label.prodpricebuy")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jCboPriceBuy.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCboPriceBuy.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jCboPriceBuy.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jCboPriceBuy.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -183,28 +183,28 @@ public class ProductFilterSales extends javax.swing.JPanel implements EditorCrea
             }
         });
 
-        m_jPriceBuy.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jPriceBuy.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jPriceBuy.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.prodpricesell")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jCboPriceSell.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCboPriceSell.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jCboPriceSell.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jPriceSell.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jPriceSell.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jPriceSell.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jtxtBarCode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jtxtBarCode.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jtxtBarCode.setMaximumSize(new java.awt.Dimension(100, 25));
         m_jtxtBarCode.setPreferredSize(new java.awt.Dimension(230, 30));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.prodbarcode")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jBtnReset.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jBtnReset.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jBtnReset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         jBtnReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

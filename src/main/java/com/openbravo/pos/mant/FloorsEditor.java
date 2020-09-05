@@ -163,13 +163,13 @@ public final class FloorsEditor extends JPanel implements EditorRecord {
         jPanel1.setPreferredSize(new java.awt.Dimension(150, 100));
         jPanel1.setLayout(null);
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.name")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
         jPanel1.add(jLabel3);
         jLabel3.setBounds(20, 20, 110, 30);
 
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(250, 30));
         jPanel1.add(m_jName);
         m_jName.setBounds(130, 20, 250, 30);
@@ -179,7 +179,7 @@ public final class FloorsEditor extends JPanel implements EditorRecord {
         jPanel3.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 5, 0, 0));
         jPanel3.setLayout(new java.awt.BorderLayout());
 
-        m_jImage.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jImage.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanel3.add(m_jImage, java.awt.BorderLayout.CENTER);
 
         add(jPanel3, java.awt.BorderLayout.CENTER);

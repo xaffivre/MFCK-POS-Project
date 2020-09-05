@@ -242,67 +242,67 @@ public class JPanelConfigLocale extends javax.swing.JPanel implements PanelConfi
         jPanel1.setOpaque(false);
         jPanel1.setPreferredSize(new java.awt.Dimension(600, 400));
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel5.setText(AppLocal.getIntString("label.locale")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jcboLocale.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboLocale.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jcboLocale.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.integer")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jcboInteger.setEditable(true);
-        jcboInteger.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboInteger.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jcboInteger.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.double")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jcboDouble.setEditable(true);
-        jcboDouble.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboDouble.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jcboDouble.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.currency")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jcboCurrency.setEditable(true);
-        jcboCurrency.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboCurrency.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jcboCurrency.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel4.setText(AppLocal.getIntString("label.percent")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jcboPercent.setEditable(true);
-        jcboPercent.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboPercent.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jcboPercent.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.date")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jcboDate.setEditable(true);
-        jcboDate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboDate.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jcboDate.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel7.setText(AppLocal.getIntString("label.time")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jcboTime.setEditable(true);
-        jcboTime.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboTime.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jcboTime.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel8.setText(AppLocal.getIntString("label.datetime")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jcboDatetime.setEditable(true);
-        jcboDatetime.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboDatetime.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jcboDatetime.setPreferredSize(new java.awt.Dimension(0, 30));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

@@ -244,7 +244,7 @@ public final class LeavesView extends javax.swing.JPanel implements EditorRecord
         m_jEndDate = new javax.swing.JTextField();
 
         m_jEmployeeName.setEditable(false);
-        m_jEmployeeName.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jEmployeeName.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jEmployeeName.setPreferredSize(new java.awt.Dimension(0, 30));
 
         m_jLeaveNote.setColumns(20);
@@ -253,23 +253,23 @@ public final class LeavesView extends javax.swing.JPanel implements EditorRecord
         m_jLeaveNote.setRows(5);
         jScrollPane1.setViewportView(m_jLeaveNote);
 
-        m_Name.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_Name.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         m_Name.setText(bundle.getString("label.epm.employee")); // NOI18N
         m_Name.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        m_StartDate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_StartDate.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_StartDate.setText(AppLocal.getIntString("label.epm.startdate")); // NOI18N
         m_StartDate.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        m_EndDate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_EndDate.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_EndDate.setText(AppLocal.getIntString("label.epm.enddate")); // NOI18N
         m_EndDate.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        m_jStartDate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jStartDate.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jStartDate.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        m_Notes.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_Notes.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_Notes.setText(AppLocal.getIntString("label.epm.notes")); // NOI18N
         m_Notes.setPreferredSize(new java.awt.Dimension(0, 30));
 
@@ -302,7 +302,7 @@ public final class LeavesView extends javax.swing.JPanel implements EditorRecord
             }
         });
 
-        m_jEndDate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jEndDate.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jEndDate.setPreferredSize(new java.awt.Dimension(0, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

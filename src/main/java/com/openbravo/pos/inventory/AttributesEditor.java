@@ -141,11 +141,11 @@ public final class AttributesEditor extends javax.swing.JPanel implements Editor
         jLabel2 = new javax.swing.JLabel();
         m_jName = new javax.swing.JTextField();
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.name")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(220, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

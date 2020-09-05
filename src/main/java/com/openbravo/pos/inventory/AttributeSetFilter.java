@@ -132,11 +132,11 @@ public class AttributeSetFilter extends javax.swing.JPanel implements ReportEdit
 
         setPreferredSize(new java.awt.Dimension(354, 61));
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel8.setText(AppLocal.getIntString("label.attributeset")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jAttrSet.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jAttrSet.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jAttrSet.setPreferredSize(new java.awt.Dimension(220, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

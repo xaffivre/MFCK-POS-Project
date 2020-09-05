@@ -2352,7 +2352,7 @@ System.out.println("PanelContainer : Focus Lost");
         m_jPanelBag.setMaximumSize(new java.awt.Dimension(10, 10));
         m_jPanelBag.setPreferredSize(new java.awt.Dimension(0, 60));
 
-        jTBtnShow.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTBtnShow.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTBtnShow.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/resources.png"))); // NOI18N
         jTBtnShow.setPreferredSize(new java.awt.Dimension(80, 45));
         jTBtnShow.addActionListener(new java.awt.event.ActionListener() {
@@ -2362,7 +2362,7 @@ System.out.println("PanelContainer : Focus Lost");
         });
         m_jPanelBag.add(jTBtnShow);
 
-        m_jbtnScale.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jbtnScale.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jbtnScale.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/scale.png"))); // NOI18N
         m_jbtnScale.setText(AppLocal.getIntString("button.scale")); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
@@ -2381,7 +2381,7 @@ System.out.println("PanelContainer : Focus Lost");
         });
         m_jPanelBag.add(m_jbtnScale);
 
-        jbtnMooring.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jbtnMooring.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jbtnMooring.setText(bundle.getString("button.moorings")); // NOI18N
         jbtnMooring.setMargin(new java.awt.Insets(8, 14, 8, 14));
         jbtnMooring.setMaximumSize(new java.awt.Dimension(80, 40));
@@ -2412,7 +2412,7 @@ System.out.println("PanelContainer : Focus Lost");
             }
         });
 
-        btnReprint1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        btnReprint1.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         btnReprint1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reprint24.png"))); // NOI18N
         btnReprint1.setToolTipText(bundle.getString("tooltip.reprintLastTicket")); // NOI18N
         btnReprint1.setFocusPainted(false);
@@ -2442,7 +2442,7 @@ System.out.println("PanelContainer : Focus Lost");
             }
         });
 
-        jBtnCustomer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jBtnCustomer.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jBtnCustomer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer.png"))); // NOI18N
         jBtnCustomer.setToolTipText(bundle.getString("tooltip.salescustomer")); // NOI18N
         jBtnCustomer.setPreferredSize(new java.awt.Dimension(80, 45));
@@ -2502,7 +2502,7 @@ System.out.println("PanelContainer : Focus Lost");
         m_jPanTicket.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         m_jPanTicket.setLayout(new java.awt.BorderLayout());
 
-        jPanel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanel5.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanel5.setPreferredSize(new java.awt.Dimension(75, 270));
         jPanel5.setLayout(new java.awt.BorderLayout());
 
@@ -2574,7 +2574,7 @@ System.out.println("PanelContainer : Focus Lost");
         });
         jPanel2.add(jEditAttributes);
 
-        jCheckStock.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jCheckStock.setFont(new java.awt.Font("MingLiU", 1, 14)); // NOI18N
         jCheckStock.setForeground(new java.awt.Color(76, 197, 237));
         jCheckStock.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/info.png"))); // NOI18N
         jCheckStock.setToolTipText(bundle.getString("tooltip.salecheckstock")); // NOI18N
@@ -2604,14 +2604,14 @@ System.out.println("PanelContainer : Focus Lost");
 
         m_jPanTicket.add(jPanel5, java.awt.BorderLayout.LINE_START);
 
-        m_jPanelCentral.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jPanelCentral.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jPanelCentral.setPreferredSize(new java.awt.Dimension(450, 240));
         m_jPanelCentral.setLayout(new java.awt.BorderLayout());
 
         jPanel4.setLayout(new java.awt.BorderLayout());
         jPanel4.add(filler2, java.awt.BorderLayout.LINE_START);
 
-        m_jTicketId.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        m_jTicketId.setFont(new java.awt.Font("MingLiU", 1, 12)); // NOI18N
         m_jTicketId.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         m_jTicketId.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         m_jTicketId.setOpaque(true);
@@ -2623,20 +2623,20 @@ System.out.println("PanelContainer : Focus Lost");
         m_jPanTotals.setPreferredSize(new java.awt.Dimension(375, 60));
         m_jPanTotals.setLayout(new java.awt.GridLayout(2, 3, 4, 0));
 
-        m_jLblTotalEuros3.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        m_jLblTotalEuros3.setFont(new java.awt.Font("MingLiU", 1, 14)); // NOI18N
         m_jLblTotalEuros3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jLblTotalEuros3.setLabelFor(m_jSubtotalEuros);
         m_jLblTotalEuros3.setText(AppLocal.getIntString("label.subtotalcash")); // NOI18N
         m_jPanTotals.add(m_jLblTotalEuros3);
 
-        m_jLblTotalEuros1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        m_jLblTotalEuros1.setFont(new java.awt.Font("MingLiU", 1, 14)); // NOI18N
         m_jLblTotalEuros1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jLblTotalEuros1.setLabelFor(m_jTotalEuros);
         m_jLblTotalEuros1.setText(AppLocal.getIntString("label.totalcash")); // NOI18N
         m_jPanTotals.add(m_jLblTotalEuros1);
 
         m_jSubtotalEuros.setBackground(m_jEditLine.getBackground());
-        m_jSubtotalEuros.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        m_jSubtotalEuros.setFont(new java.awt.Font("MingLiU", 0, 18)); // NOI18N
         m_jSubtotalEuros.setForeground(m_jEditLine.getForeground());
         m_jSubtotalEuros.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jSubtotalEuros.setLabelFor(m_jSubtotalEuros);
@@ -2649,7 +2649,7 @@ System.out.println("PanelContainer : Focus Lost");
         m_jPanTotals.add(m_jSubtotalEuros);
 
         m_jTotalEuros.setBackground(m_jEditLine.getBackground());
-        m_jTotalEuros.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        m_jTotalEuros.setFont(new java.awt.Font("MingLiU", 1, 18)); // NOI18N
         m_jTotalEuros.setForeground(m_jEditLine.getForeground());
         m_jTotalEuros.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jTotalEuros.setLabelFor(m_jTotalEuros);
@@ -2669,11 +2669,11 @@ System.out.println("PanelContainer : Focus Lost");
 
         m_jPanContainer.add(m_jPanTicket, java.awt.BorderLayout.CENTER);
 
-        m_jContEntries.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jContEntries.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jContEntries.setMinimumSize(new java.awt.Dimension(300, 350));
         m_jContEntries.setLayout(new java.awt.BorderLayout());
 
-        m_jPanEntries.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jPanEntries.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jPanEntries.setPreferredSize(new java.awt.Dimension(300, 350));
         m_jPanEntries.setLayout(new javax.swing.BoxLayout(m_jPanEntries, javax.swing.BoxLayout.Y_AXIS));
 
@@ -2690,7 +2690,7 @@ System.out.println("PanelContainer : Focus Lost");
 
         m_jaddtax.setBorder(null);
         m_jaddtax.setToolTipText(bundle.getString("tooltip.switchtax")); // NOI18N
-        m_jaddtax.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jaddtax.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jaddtax.setPreferredSize(new java.awt.Dimension(60, 30));
         m_jaddtax.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2698,7 +2698,7 @@ System.out.println("PanelContainer : Focus Lost");
             }
         });
 
-        m_jPrice.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
+        m_jPrice.setFont(new java.awt.Font("MingLiU", 1, 16)); // NOI18N
         m_jPrice.setForeground(new java.awt.Color(76, 197, 237));
         m_jPrice.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         m_jPrice.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(76, 197, 237)), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
@@ -2706,7 +2706,7 @@ System.out.println("PanelContainer : Focus Lost");
         m_jPrice.setPreferredSize(new java.awt.Dimension(100, 25));
         m_jPrice.setRequestFocusEnabled(false);
 
-        m_jPor.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jPor.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jPor.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jPor.setRequestFocusEnabled(false);
 
@@ -2723,7 +2723,7 @@ System.out.println("PanelContainer : Focus Lost");
         });
 
         m_jKeyFactory.setEditable(false);
-        m_jKeyFactory.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        m_jKeyFactory.setFont(new java.awt.Font("MingLiU", 0, 11)); // NOI18N
         m_jKeyFactory.setForeground(javax.swing.UIManager.getDefaults().getColor("Panel.background"));
         m_jKeyFactory.setAutoscrolls(false);
         m_jKeyFactory.setBorder(null);
@@ -2779,7 +2779,7 @@ System.out.println("PanelContainer : Focus Lost");
         m_jPanContainer.add(m_jContEntries, java.awt.BorderLayout.LINE_END);
 
         catcontainer.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        catcontainer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        catcontainer.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         catcontainer.setLayout(new java.awt.BorderLayout());
         m_jPanContainer.add(catcontainer, java.awt.BorderLayout.SOUTH);
 

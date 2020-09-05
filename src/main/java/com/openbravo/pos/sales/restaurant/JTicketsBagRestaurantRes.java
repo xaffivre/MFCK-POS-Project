@@ -405,7 +405,7 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
         m_jToolbar.setPreferredSize(new java.awt.Dimension(500, 55));
         m_jToolbar.setLayout(new java.awt.BorderLayout());
 
-        m_jbtnReceive.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jbtnReceive.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jbtnReceive.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/receive.png"))); // NOI18N
         m_jbtnReceive.setText(AppLocal.getIntString("button.receive")); // NOI18N
         m_jbtnReceive.setToolTipText("Receive pre-Booked Customer");
@@ -419,7 +419,7 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
             }
         });
 
-        m_jbtnTables.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jbtnTables.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jbtnTables.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/tables.png"))); // NOI18N
         m_jbtnTables.setText(AppLocal.getIntString("button.tables")); // NOI18N
         m_jbtnTables.setToolTipText("Go to Table Plan");
@@ -434,11 +434,11 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
         });
 
         m_jPanelList.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        m_jPanelList.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jPanelList.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jPanelList.setPreferredSize(new java.awt.Dimension(300, 200));
         m_jPanelList.setLayout(new java.awt.BorderLayout());
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel5.setText(AppLocal.getIntString("rest.label.selectcustomer")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(100, 45));
 
@@ -456,38 +456,38 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
             }
         });
 
-        txtCustomer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtCustomer.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         txtCustomer.setMaximumSize(new java.awt.Dimension(250, 30));
         txtCustomer.setMinimumSize(new java.awt.Dimension(200, 25));
         txtCustomer.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("rest.label.chairs")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jtxtChairs.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jtxtChairs.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jtxtChairs.setMaximumSize(new java.awt.Dimension(50, 25));
         m_jtxtChairs.setMinimumSize(new java.awt.Dimension(50, 25));
         m_jtxtChairs.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel4.setText(AppLocal.getIntString("rest.label.notes")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jtxtDescription.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jtxtDescription.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jtxtDescription.setMaximumSize(new java.awt.Dimension(180, 25));
         m_jtxtDescription.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("rest.label.date")); // NOI18N
         jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         jLabel1.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jPanelTime.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jPanelTime.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jPanelTime.setPreferredSize(new java.awt.Dimension(200, 200));
         m_jPanelTime.setLayout(new java.awt.BorderLayout());
 
-        jbtnShowCalendar.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jbtnShowCalendar.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jbtnShowCalendar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/date.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jbtnShowCalendar.setText(bundle.getString("rest.label.showcalendar")); // NOI18N

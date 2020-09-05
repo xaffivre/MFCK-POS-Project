@@ -150,7 +150,7 @@ public class ReceiptSplit extends javax.swing.JDialog {
 
         jPanel2.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
-        m_jButtonCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jButtonCancel.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jButtonCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         m_jButtonCancel.setText(AppLocal.getIntString("button.cancel")); // NOI18N
         m_jButtonCancel.setFocusPainted(false);
@@ -165,7 +165,7 @@ public class ReceiptSplit extends javax.swing.JDialog {
         });
         jPanel2.add(m_jButtonCancel);
 
-        m_jButtonOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jButtonOK.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jButtonOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         m_jButtonOK.setText(AppLocal.getIntString("button.OK")); // NOI18N
         m_jButtonOK.setFocusPainted(false);
@@ -184,11 +184,11 @@ public class ReceiptSplit extends javax.swing.JDialog {
 
         jPanel1.setLayout(new javax.swing.BoxLayout(jPanel1, javax.swing.BoxLayout.LINE_AXIS));
 
-        jPanel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanel5.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanel5.setLayout(new java.awt.BorderLayout());
         jPanel1.add(jPanel5);
 
-        jPanel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanel4.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanel4.setLayout(new java.awt.GridBagLayout());
 
         jBtnToRightAll.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/2rightarrow.png"))); // NOI18N
@@ -260,7 +260,7 @@ public class ReceiptSplit extends javax.swing.JDialog {
 
         jPanel1.add(jPanel4);
 
-        jPanel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanel3.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanel3.setLayout(new java.awt.BorderLayout());
         jPanel1.add(jPanel3);
 

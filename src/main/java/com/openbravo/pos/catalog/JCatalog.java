@@ -484,22 +484,22 @@ public class JCatalog extends JPanel implements ListSelectionListener, CatalogSe
 
         setLayout(new java.awt.BorderLayout());
 
-        m_jCategories.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jCategories.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jCategories.setMaximumSize(new java.awt.Dimension(275, 600));
         m_jCategories.setPreferredSize(new java.awt.Dimension(265, 0));
         m_jCategories.setLayout(new java.awt.CardLayout());
 
-        m_jRootCategories.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        m_jRootCategories.setFont(new java.awt.Font("MingLiU", 0, 11)); // NOI18N
         m_jRootCategories.setMinimumSize(new java.awt.Dimension(200, 100));
         m_jRootCategories.setPreferredSize(new java.awt.Dimension(275, 130));
         m_jRootCategories.setLayout(new java.awt.BorderLayout());
 
         m_jscrollcat.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         m_jscrollcat.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
-        m_jscrollcat.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jscrollcat.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jscrollcat.setPreferredSize(new java.awt.Dimension(265, 130));
 
-        m_jListCategories.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jListCategories.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jListCategories.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         m_jListCategories.setFocusable(false);
         m_jListCategories.addListSelectionListener(new javax.swing.event.ListSelectionListener() {
@@ -525,7 +525,7 @@ public class JCatalog extends JPanel implements ListSelectionListener, CatalogSe
 
         jPanel4.setLayout(new java.awt.BorderLayout());
 
-        m_lblIndicator.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_lblIndicator.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_lblIndicator.setText("jLabel1");
         jPanel4.add(m_lblIndicator, java.awt.BorderLayout.NORTH);
 
@@ -557,7 +557,7 @@ public class JCatalog extends JPanel implements ListSelectionListener, CatalogSe
 
         add(m_jCategories, java.awt.BorderLayout.LINE_START);
 
-        m_jProducts.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jProducts.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jProducts.setLayout(new java.awt.CardLayout());
         add(m_jProducts, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents

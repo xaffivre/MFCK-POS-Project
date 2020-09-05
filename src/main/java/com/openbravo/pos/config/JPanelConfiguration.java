@@ -219,54 +219,54 @@ public class JPanelConfiguration extends JPanel implements JPanelView {
         jbtnExit = new javax.swing.JButton();
         jbtnSave = new javax.swing.JButton();
 
-        setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         setMinimumSize(new java.awt.Dimension(0, 0));
         setPreferredSize(new java.awt.Dimension(950, 600));
 
-        jTabbedPane1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTabbedPane1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTabbedPane1.setOpaque(true);
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(930, 550));
 
-        jPanelGeneral.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jPanelGeneral.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jPanelGeneral.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelGeneral.setLayout(new javax.swing.BoxLayout(jPanelGeneral, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("General", jPanelGeneral);
 
-        jPanelLocale.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanelLocale.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanelLocale.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelLocale.setLayout(new javax.swing.BoxLayout(jPanelLocale, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("Locale", jPanelLocale);
 
-        jPanelPayment.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanelPayment.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanelPayment.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelPayment.setLayout(new javax.swing.BoxLayout(jPanelPayment, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("Payment Method", jPanelPayment);
 
-        jPanelPeripheral.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanelPeripheral.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanelPeripheral.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelPeripheral.setLayout(new javax.swing.BoxLayout(jPanelPeripheral, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("Peripherals", jPanelPeripheral);
 
-        jPanelSystem.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanelSystem.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanelSystem.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelSystem.setLayout(new javax.swing.BoxLayout(jPanelSystem, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("System Options", jPanelSystem);
 
-        jPanelTicketSetup.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanelTicketSetup.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanelTicketSetup.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelTicketSetup.setLayout(new javax.swing.BoxLayout(jPanelTicketSetup, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("Ticket Setup", jPanelTicketSetup);
 
-        jPanelCompany.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jPanelCompany.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jPanelCompany.setLayout(new javax.swing.BoxLayout(jPanelCompany, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("Company", jPanelCompany);
 
-        jPanelDatabase.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanelDatabase.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanelDatabase.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelDatabase.setLayout(new javax.swing.BoxLayout(jPanelDatabase, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("Database Setup", jPanelDatabase);
 
-        jbtnRestore.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jbtnRestore.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jbtnRestore.setText(AppLocal.getIntString("button.factory")); // NOI18N
         jbtnRestore.setMaximumSize(new java.awt.Dimension(103, 33));
         jbtnRestore.setMinimumSize(new java.awt.Dimension(103, 33));
@@ -277,7 +277,7 @@ public class JPanelConfiguration extends JPanel implements JPanelView {
             }
         });
 
-        jbtnExit.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jbtnExit.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jbtnExit.setText(AppLocal.getIntString("Button.Exit")); // NOI18N
         jbtnExit.setMaximumSize(new java.awt.Dimension(70, 33));
         jbtnExit.setMinimumSize(new java.awt.Dimension(70, 33));
@@ -288,7 +288,7 @@ public class JPanelConfiguration extends JPanel implements JPanelView {
             }
         });
 
-        jbtnSave.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jbtnSave.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jbtnSave.setText(AppLocal.getIntString("button.save")); // NOI18N
         jbtnSave.setMaximumSize(new java.awt.Dimension(70, 33));
         jbtnSave.setMinimumSize(new java.awt.Dimension(70, 33));

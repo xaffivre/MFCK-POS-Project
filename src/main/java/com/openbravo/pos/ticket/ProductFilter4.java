@@ -140,31 +140,31 @@ public class ProductFilter4 extends javax.swing.JPanel implements ReportEditorCr
 
         setPreferredSize(new java.awt.Dimension(946, 50));
 
-        m_jBarcode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jBarcode.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jBarcode.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel5.setText(AppLocal.getIntString("label.prodbarcode")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.prodcategory")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.prodname")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCategory.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jCategory.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jCboName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCboName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jCboName.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jBtnReset.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jBtnReset.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jBtnReset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         jBtnReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

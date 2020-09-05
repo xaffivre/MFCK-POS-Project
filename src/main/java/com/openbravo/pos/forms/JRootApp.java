@@ -978,11 +978,11 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
         m_jPanelTitle.setPreferredSize(new java.awt.Dimension(449, 40));
         m_jPanelTitle.setLayout(new java.awt.BorderLayout());
 
-        m_jLblTitle.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
+        m_jLblTitle.setFont(new java.awt.Font("MingLiU", 1, 16)); // NOI18N
         m_jLblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jPanelTitle.add(m_jLblTitle, java.awt.BorderLayout.CENTER);
 
-        jLabel2.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 1, 16)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 102, 102));
         jLabel2.setPreferredSize(new java.awt.Dimension(180, 34));
         m_jPanelTitle.add(jLabel2, java.awt.BorderLayout.LINE_START);
@@ -999,7 +999,7 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
 
         jScrollPane1.setBorder(null);
         jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
-        jScrollPane1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jScrollPane1.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
 
         m_txtKeys.setPreferredSize(new java.awt.Dimension(0, 0));
         m_txtKeys.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -1031,7 +1031,7 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
                     .add(0, 280, Short.MAX_VALUE)))
         );
 
-        m_jClose.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jClose.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/exit.png"))); // NOI18N
         m_jClose.setText(AppLocal.getIntString("button.close")); // NOI18N
         m_jClose.setFocusPainted(false);
@@ -1097,21 +1097,21 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
         m_jPanelDown.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 0, 0, 0, javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")));
         m_jPanelDown.setLayout(new java.awt.BorderLayout());
 
-        m_jHost.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        m_jHost.setFont(new java.awt.Font("MingLiU", 0, 11)); // NOI18N
         m_jHost.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/display.png"))); // NOI18N
         m_jHost.setText("MFCK");
         panelTask.add(m_jHost);
 
         webMemoryBar1.setBackground(new java.awt.Color(153, 153, 153));
         webMemoryBar1.setText("");
-        webMemoryBar1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        webMemoryBar1.setFont(new java.awt.Font("MingLiU", 0, 11)); // NOI18N
         webMemoryBar1.setPreferredSize(new java.awt.Dimension(150, 30));
         webMemoryBar1.setUsedBorderColor(new java.awt.Color(0, 204, 204));
         webMemoryBar1.setUsedFillColor(new java.awt.Color(0, 204, 255));
         panelTask.add(webMemoryBar1);
 
         serverMonitor.setToolTipText("");
-        serverMonitor.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        serverMonitor.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         serverMonitor.setMaximumSize(new java.awt.Dimension(50, 18));
         serverMonitor.setPreferredSize(new java.awt.Dimension(150, 30));
         serverMonitor.setProgressBottomColor(new java.awt.Color(76, 197, 237));

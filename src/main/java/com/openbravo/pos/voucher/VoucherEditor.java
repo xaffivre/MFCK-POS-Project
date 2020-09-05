@@ -227,31 +227,31 @@ public final class VoucherEditor extends javax.swing.JPanel implements EditorRec
         m_jStatus = new javax.swing.JTextField();
         jCBCustomer = new javax.swing.JComboBox<>();
 
-        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.Number")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jNumber.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jNumber.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jNumber.setPreferredSize(new java.awt.Dimension(240, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.customer")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(100, 30));
 
         m_jCustomer.setEditable(false);
-        m_jCustomer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCustomer.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jCustomer.setPreferredSize(new java.awt.Dimension(240, 30));
 
-        m_jAmount.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jAmount.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jAmount.setPreferredSize(new java.awt.Dimension(240, 30));
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel5.setText(AppLocal.getIntString("label.paymenttotal")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jButtonPrint.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jButtonPrint.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jButtonPrint.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/printer24.png"))); // NOI18N
         jButtonPrint.setToolTipText(AppLocal.getIntString("button.print")); // NOI18N
         jButtonPrint.setFocusPainted(false);
@@ -265,16 +265,16 @@ public final class VoucherEditor extends javax.swing.JPanel implements EditorRec
             }
         });
 
-        jLblStatus.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblStatus.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblStatus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jLblStatus.setText(AppLocal.getIntString("label.Status")); // NOI18N
         jLblStatus.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
         jLblStatus.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jStatus.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jStatus.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jStatus.setPreferredSize(new java.awt.Dimension(240, 30));
 
-        jCBCustomer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jCBCustomer.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jCBCustomer.setMaximumRowCount(2);
         jCBCustomer.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Find", "Create" }));
         jCBCustomer.setToolTipText(AppLocal.getIntString("label.voucherCustomer")); // NOI18N

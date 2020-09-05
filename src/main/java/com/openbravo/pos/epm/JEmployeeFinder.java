@@ -195,7 +195,7 @@ public class JEmployeeFinder extends javax.swing.JDialog implements EditorCreato
         jPanel2.setLayout(new java.awt.BorderLayout());
         jPanel2.add(m_jKeys, java.awt.BorderLayout.NORTH);
 
-        jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdCancel.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(AppLocal.getIntString("button.cancel")); // NOI18N
         jcmdCancel.setFocusPainted(false);
@@ -210,7 +210,7 @@ public class JEmployeeFinder extends javax.swing.JDialog implements EditorCreato
         });
         jPanel1.add(jcmdCancel);
 
-        jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdOK.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(AppLocal.getIntString("button.OK")); // NOI18N
         jcmdOK.setEnabled(false);
@@ -234,10 +234,10 @@ public class JEmployeeFinder extends javax.swing.JDialog implements EditorCreato
 
         jPanel5.setLayout(new java.awt.BorderLayout());
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jLabel5.setText(AppLocal.getIntString("label.epm.employee")); // NOI18N
 
-        m_jtxtName.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jtxtName.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -262,7 +262,7 @@ public class JEmployeeFinder extends javax.swing.JDialog implements EditorCreato
 
         jPanel5.add(jPanel7, java.awt.BorderLayout.CENTER);
 
-        jButton1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jButton1.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         jButton1.setText(AppLocal.getIntString("button.clean")); // NOI18N
         jButton1.setPreferredSize(new java.awt.Dimension(110, 45));
@@ -273,7 +273,7 @@ public class JEmployeeFinder extends javax.swing.JDialog implements EditorCreato
         });
         jPanel6.add(jButton1);
 
-        jButton3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jButton3.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jButton3.setText(AppLocal.getIntString("button.executefilter")); // NOI18N
         jButton3.setFocusPainted(false);
@@ -294,7 +294,7 @@ public class JEmployeeFinder extends javax.swing.JDialog implements EditorCreato
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
-        jListEmployees.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jListEmployees.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jListEmployees.setFocusable(false);
         jListEmployees.setRequestFocusEnabled(false);
         jListEmployees.addMouseListener(new java.awt.event.MouseAdapter() {

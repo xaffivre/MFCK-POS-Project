@@ -292,28 +292,28 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
         jtxtPIN = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
 
-        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         setOpaque(false);
         setPreferredSize(new java.awt.Dimension(700, 500));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 1, 14)); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLabel1.setText(bundle.getString("label.configOptionStartup")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 1, 14)); // NOI18N
         jLabel2.setText(bundle.getString("label.configOptionKeypad")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 1, 14)); // NOI18N
         jLabel3.setText(bundle.getString("label.configOptionLogOff")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("MingLiU", 1, 14)); // NOI18N
         jLabel4.setText(bundle.getString("label.configOptionRestaurant")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jchkInstance.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkInstance.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jchkInstance.setSelected(true);
         jchkInstance.setText(bundle.getString("label.instance")); // NOI18N
         jchkInstance.setMaximumSize(new java.awt.Dimension(0, 25));
@@ -322,26 +322,26 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
         jchkInstance.setPreferredSize(new java.awt.Dimension(250, 25));
 
         jLabelInactiveTime.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelInactiveTime.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabelInactiveTime.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabelInactiveTime.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelInactiveTime.setText(bundle.getString("label.autolofftime")); // NOI18N
         jLabelInactiveTime.setMaximumSize(new java.awt.Dimension(0, 25));
         jLabelInactiveTime.setMinimumSize(new java.awt.Dimension(0, 0));
         jLabelInactiveTime.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jTextAutoLogoffTime.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextAutoLogoffTime.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTextAutoLogoffTime.setText("0");
         jTextAutoLogoffTime.setMaximumSize(new java.awt.Dimension(0, 25));
         jTextAutoLogoffTime.setMinimumSize(new java.awt.Dimension(0, 0));
         jTextAutoLogoffTime.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabelTimedMessage.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabelTimedMessage.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabelTimedMessage.setText(bundle.getString("label.autologoffzero")); // NOI18N
         jLabelTimedMessage.setMaximumSize(new java.awt.Dimension(0, 25));
         jLabelTimedMessage.setMinimumSize(new java.awt.Dimension(0, 0));
         jLabelTimedMessage.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jchkAutoLogoff.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkAutoLogoff.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jchkAutoLogoff.setText(bundle.getString("label.autologonoff")); // NOI18N
         jchkAutoLogoff.setMaximumSize(new java.awt.Dimension(0, 25));
         jchkAutoLogoff.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -353,7 +353,7 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
             }
         });
 
-        jchkAutoLogoffToTables.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkAutoLogoffToTables.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jchkAutoLogoffToTables.setText(bundle.getString("label.autoloffrestaurant")); // NOI18N
         jchkAutoLogoffToTables.setMaximumSize(new java.awt.Dimension(0, 25));
         jchkAutoLogoffToTables.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -365,7 +365,7 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
             }
         });
 
-        jchkShowCustomerDetails.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkShowCustomerDetails.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jchkShowCustomerDetails.setSelected(true);
         jchkShowCustomerDetails.setText(bundle.getString("label.tableshowcustomerdetails")); // NOI18N
         jchkShowCustomerDetails.setMaximumSize(new java.awt.Dimension(0, 25));
@@ -378,7 +378,7 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
             }
         });
 
-        jchkShowWaiterDetails.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkShowWaiterDetails.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jchkShowWaiterDetails.setSelected(true);
         jchkShowWaiterDetails.setText(bundle.getString("label.tableshowwaiterdetails")); // NOI18N
         jchkShowWaiterDetails.setMaximumSize(new java.awt.Dimension(0, 25));
@@ -387,13 +387,13 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
         jchkShowWaiterDetails.setPreferredSize(new java.awt.Dimension(350, 30));
 
         jLabelTableNameTextColour.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTableNameTextColour.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabelTableNameTextColour.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabelTableNameTextColour.setText(bundle.getString("label.textclourtablename")); // NOI18N
         jLabelTableNameTextColour.setMaximumSize(new java.awt.Dimension(0, 25));
         jLabelTableNameTextColour.setMinimumSize(new java.awt.Dimension(0, 0));
         jLabelTableNameTextColour.setPreferredSize(new java.awt.Dimension(350, 30));
 
-        jCheckPrice00.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jCheckPrice00.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jCheckPrice00.setText(bundle.getString("label.pricewith00")); // NOI18N
         jCheckPrice00.setToolTipText("");
         jCheckPrice00.setMaximumSize(new java.awt.Dimension(0, 25));
@@ -406,14 +406,14 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
             }
         });
 
-        jTaxIncluded.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTaxIncluded.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTaxIncluded.setText(bundle.getString("label.taxincluded")); // NOI18N
         jTaxIncluded.setMaximumSize(new java.awt.Dimension(0, 25));
         jTaxIncluded.setMinimumSize(new java.awt.Dimension(0, 0));
         jTaxIncluded.setOpaque(false);
         jTaxIncluded.setPreferredSize(new java.awt.Dimension(250, 25));
 
-        jCloseCashbtn.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jCloseCashbtn.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jCloseCashbtn.setText(bundle.getString("message.systemclosecash")); // NOI18N
         jCloseCashbtn.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jCloseCashbtn.setMaximumSize(new java.awt.Dimension(0, 25));
@@ -421,7 +421,7 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
         jCloseCashbtn.setOpaque(false);
         jCloseCashbtn.setPreferredSize(new java.awt.Dimension(250, 25));
 
-        jMoveAMountBoxToTop.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jMoveAMountBoxToTop.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jMoveAMountBoxToTop.setSelected(true);
         jMoveAMountBoxToTop.setText(bundle.getString("label.inputamount")); // NOI18N
         jMoveAMountBoxToTop.setMaximumSize(new java.awt.Dimension(0, 25));
@@ -429,7 +429,7 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
         jMoveAMountBoxToTop.setOpaque(false);
         jMoveAMountBoxToTop.setPreferredSize(new java.awt.Dimension(250, 25));
 
-        jchkTextOverlay.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkTextOverlay.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jchkTextOverlay.setText(bundle.getString("label.currencybutton")); // NOI18N
         jchkTextOverlay.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jchkTextOverlay.setMaximumSize(new java.awt.Dimension(0, 25));
@@ -437,7 +437,7 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
         jchkTextOverlay.setOpaque(false);
         jchkTextOverlay.setPreferredSize(new java.awt.Dimension(250, 25));
 
-        jchkautoRefreshTableMap.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkautoRefreshTableMap.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jchkautoRefreshTableMap.setText(bundle.getString("label.autoRefreshTableMap")); // NOI18N
         jchkautoRefreshTableMap.setMaximumSize(new java.awt.Dimension(0, 25));
         jchkautoRefreshTableMap.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -450,26 +450,26 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
         });
 
         jLabelInactiveTime1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelInactiveTime1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabelInactiveTime1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabelInactiveTime1.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabelInactiveTime1.setText(bundle.getString("label.autolofftime")); // NOI18N
         jLabelInactiveTime1.setMaximumSize(new java.awt.Dimension(0, 25));
         jLabelInactiveTime1.setMinimumSize(new java.awt.Dimension(0, 0));
         jLabelInactiveTime1.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jTxtautoRefreshTimer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTxtautoRefreshTimer.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTxtautoRefreshTimer.setText("0");
         jTxtautoRefreshTimer.setMaximumSize(new java.awt.Dimension(0, 25));
         jTxtautoRefreshTimer.setMinimumSize(new java.awt.Dimension(0, 0));
         jTxtautoRefreshTimer.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLblautoRefresh.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblautoRefresh.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblautoRefresh.setText(bundle.getString("label.autoRefreshTableMapTimer")); // NOI18N
         jLblautoRefresh.setMaximumSize(new java.awt.Dimension(0, 25));
         jLblautoRefresh.setMinimumSize(new java.awt.Dimension(0, 0));
         jLblautoRefresh.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jchkSCOnOff.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkSCOnOff.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jchkSCOnOff.setText(bundle.getString("label.SCOnOff")); // NOI18N
         jchkSCOnOff.setMaximumSize(new java.awt.Dimension(0, 25));
         jchkSCOnOff.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -481,13 +481,13 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
             }
         });
 
-        jLabelSCRate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabelSCRate.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabelSCRate.setText(bundle.getString("label.SCRate")); // NOI18N
         jLabelSCRate.setMaximumSize(new java.awt.Dimension(0, 25));
         jLabelSCRate.setMinimumSize(new java.awt.Dimension(0, 0));
         jLabelSCRate.setPreferredSize(new java.awt.Dimension(190, 30));
 
-        jTextSCRate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextSCRate.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTextSCRate.setText("0");
         jTextSCRate.setMaximumSize(new java.awt.Dimension(0, 25));
         jTextSCRate.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -498,21 +498,21 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
             }
         });
 
-        jLabelSCRatePerCent.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabelSCRatePerCent.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabelSCRatePerCent.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabelSCRatePerCent.setText(bundle.getString("label.SCZero")); // NOI18N
         jLabelSCRatePerCent.setMaximumSize(new java.awt.Dimension(0, 25));
         jLabelSCRatePerCent.setMinimumSize(new java.awt.Dimension(0, 0));
         jLabelSCRatePerCent.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jchkSCRestaurant.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkSCRestaurant.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jchkSCRestaurant.setText(bundle.getString("label.SCRestaurant")); // NOI18N
         jchkSCRestaurant.setMaximumSize(new java.awt.Dimension(0, 25));
         jchkSCRestaurant.setMinimumSize(new java.awt.Dimension(0, 0));
         jchkSCRestaurant.setOpaque(false);
         jchkSCRestaurant.setPreferredSize(new java.awt.Dimension(0, 25));
 
-        jchkPriceUpdate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkPriceUpdate.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jchkPriceUpdate.setText(bundle.getString("label.priceupdate")); // NOI18N
         jchkPriceUpdate.setToolTipText(bundle.getString("tooltip.priceupdate")); // NOI18N
         jchkPriceUpdate.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -521,7 +521,7 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
         jchkPriceUpdate.setOpaque(false);
         jchkPriceUpdate.setPreferredSize(new java.awt.Dimension(250, 25));
 
-        jchkBarcodetype.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkBarcodetype.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jchkBarcodetype.setText(bundle.getString("label.barcodetype")); // NOI18N
         jchkBarcodetype.setToolTipText(bundle.getString("tooltip.barcodetype")); // NOI18N
         jchkBarcodetype.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -530,7 +530,7 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
         jchkBarcodetype.setOpaque(false);
         jchkBarcodetype.setPreferredSize(new java.awt.Dimension(250, 25));
 
-        jchkTransBtn.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkTransBtn.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jchkTransBtn.setText(bundle.getString("label.tabletransbutton")); // NOI18N
         jchkTransBtn.setMaximumSize(new java.awt.Dimension(0, 25));
         jchkTransBtn.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -544,34 +544,34 @@ public class JPanelConfigSystem extends javax.swing.JPanel implements PanelConfi
 
         WaiterColour.setToolTipText(bundle.getString("tooltip.prodhtmldisplayColourChooser")); // NOI18N
         WaiterColour.setColorDisplayType(com.alee.extended.colorchooser.ColorDisplayType.hex);
-        WaiterColour.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        WaiterColour.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         WaiterColour.setMinimumSize(new java.awt.Dimension(51, 30));
 
         TableNameColour.setToolTipText(bundle.getString("tooltip.prodhtmldisplayColourChooser")); // NOI18N
         TableNameColour.setColorDisplayType(com.alee.extended.colorchooser.ColorDisplayType.hex);
-        TableNameColour.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        TableNameColour.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         TableNameColour.setMinimumSize(new java.awt.Dimension(51, 30));
 
         CustomerColour.setToolTipText(bundle.getString("tooltip.prodhtmldisplayColourChooser")); // NOI18N
         CustomerColour.setColorDisplayType(com.alee.extended.colorchooser.ColorDisplayType.hex);
-        CustomerColour.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        CustomerColour.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         CustomerColour.setMinimumSize(new java.awt.Dimension(51, 30));
 
-        jchkOverride.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkOverride.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jchkOverride.setText(bundle.getString("label.override")); // NOI18N
         jchkOverride.setMaximumSize(new java.awt.Dimension(0, 25));
         jchkOverride.setMinimumSize(new java.awt.Dimension(0, 0));
         jchkOverride.setOpaque(false);
         jchkOverride.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jtxtPIN.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtPIN.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jtxtPIN.setText("1234");
         jtxtPIN.setToolTipText("");
         jtxtPIN.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtPIN.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtPIN.setPreferredSize(new java.awt.Dimension(60, 30));
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel5.setText("PIN");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

@@ -195,7 +195,7 @@ public class JPrincipalApp extends javax.swing.JPanel implements AppUserView {
             taskGroup.setRequestFocusEnabled(false);
             taskGroup.setTitle(AppLocal.getIntString(key));
             taskGroup.setVisible(false);
-            taskGroup.setFont(new java.awt.Font("Arial",0,16));
+            taskGroup.setFont(new java.awt.Font("MingLiU",0,16));
                        
         }
         
@@ -570,18 +570,18 @@ public class JPrincipalApp extends javax.swing.JPanel implements AppUserView {
         m_jTitle = new javax.swing.JLabel();
         m_jPanelContainer = new javax.swing.JPanel();
 
-        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         setLayout(new java.awt.BorderLayout());
 
         jPanel1.setLayout(new java.awt.BorderLayout());
 
         m_jPanelLeft.setBackground(new java.awt.Color(102, 102, 102));
         m_jPanelLeft.setBorder(null);
-        m_jPanelLeft.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jPanelLeft.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jPanelLeft.setPreferredSize(new java.awt.Dimension(250, 2));
         jPanel1.add(m_jPanelLeft, java.awt.BorderLayout.LINE_START);
 
-        jPanel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanel2.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanel2.setPreferredSize(new java.awt.Dimension(45, 45));
 
         jButton1.setToolTipText(AppLocal.getIntString("tooltip.menu")); // NOI18N
@@ -625,7 +625,7 @@ public class JPrincipalApp extends javax.swing.JPanel implements AppUserView {
 
         m_jPanelTitle.setLayout(new java.awt.BorderLayout());
 
-        m_jTitle.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        m_jTitle.setFont(new java.awt.Font("MingLiU", 1, 14)); // NOI18N
         m_jTitle.setForeground(new java.awt.Color(0, 168, 223));
         m_jTitle.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, java.awt.Color.darkGray), javax.swing.BorderFactory.createEmptyBorder(10, 10, 10, 10)));
         m_jTitle.setMaximumSize(new java.awt.Dimension(100, 35));
@@ -635,7 +635,7 @@ public class JPrincipalApp extends javax.swing.JPanel implements AppUserView {
 
         m_jPanelRight.add(m_jPanelTitle, java.awt.BorderLayout.NORTH);
 
-        m_jPanelContainer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jPanelContainer.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jPanelContainer.setLayout(new java.awt.CardLayout());
         m_jPanelRight.add(m_jPanelContainer, java.awt.BorderLayout.CENTER);
 

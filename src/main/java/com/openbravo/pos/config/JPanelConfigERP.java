@@ -131,45 +131,45 @@ public class JPanelConfigERP extends javax.swing.JPanel implements PanelConfig {
         setBackground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(700, 500));
 
-        jtxtUrl.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtUrl.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jtxtUrl.setPreferredSize(new java.awt.Dimension(350, 30));
 
-        jtxtId.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtId.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jtxtId.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jTextField1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTextField1.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jTextField2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTextField2.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jtxtName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jtxtName.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jtxtPassword.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtPassword.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jtxtPassword.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jlabelUrl.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlabelUrl.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jlabelUrl.setText(AppLocal.getIntString("label.erpurl")); // NOI18N
         jlabelUrl.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabelId.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabelId.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabelId.setText(AppLocal.getIntString("label.erpid")); // NOI18N
         jLabelId.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.erporg")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.erppos")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabelName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabelName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabelName.setText(AppLocal.getIntString("label.erpuser")); // NOI18N
         jLabelName.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabelProperties.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabelProperties.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabelProperties.setText(AppLocal.getIntString("label.erppassword")); // NOI18N
         jLabelProperties.setPreferredSize(new java.awt.Dimension(150, 30));
 

@@ -139,9 +139,9 @@ public class JGuestsPop extends javax.swing.JDialog {
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
-        jPanel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jPanel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
 
-        m_jnumber.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jnumber.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jnumber.setPreferredSize(new java.awt.Dimension(130, 30));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -163,7 +163,7 @@ public class JGuestsPop extends javax.swing.JDialog {
 
         jPanel4.add(jPanel1, java.awt.BorderLayout.LINE_START);
 
-        jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdOK.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setMargin(new java.awt.Insets(8, 16, 8, 16));
         jcmdOK.setPreferredSize(new java.awt.Dimension(80, 45));
@@ -184,7 +184,7 @@ public class JGuestsPop extends javax.swing.JDialog {
 
         m_jPanelTitle.setLayout(new java.awt.BorderLayout());
 
-        m_lblMessage.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_lblMessage.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jPanelTitle.add(m_lblMessage, java.awt.BorderLayout.CENTER);
 
         getContentPane().add(m_jPanelTitle, java.awt.BorderLayout.NORTH);

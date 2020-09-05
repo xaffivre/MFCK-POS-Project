@@ -168,31 +168,31 @@ public class PaymentPanelType extends javax.swing.JPanel implements PaymentPanel
 
         jPanel4.setPreferredSize(new java.awt.Dimension(400, 105));
 
-        m_jCardNumber.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCardNumber.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jCardNumber.setMinimumSize(new java.awt.Dimension(100, 30));
         m_jCardNumber.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jExpirationDate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jExpirationDate.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jExpirationDate.setMinimumSize(new java.awt.Dimension(100, 30));
         m_jExpirationDate.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jHolderName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jHolderName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jHolderName.setMinimumSize(new java.awt.Dimension(100, 30));
         m_jHolderName.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel8.setText(AppLocal.getIntString("label.cardholder")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.cardnumber")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel7.setText(AppLocal.getIntString("label.cardexpdate")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText("MMYY");
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
@@ -243,7 +243,7 @@ public class PaymentPanelType extends javax.swing.JPanel implements PaymentPanel
 
         jPanel5.setPreferredSize(new java.awt.Dimension(350, 45));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 1, 18)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("message.paymentgatewaytype")); // NOI18N
         jPanel5.add(jLabel1);
 

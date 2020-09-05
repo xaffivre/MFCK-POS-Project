@@ -89,14 +89,14 @@ public class JPanelNull extends JPanel implements JPanelView {
 
         setLayout(null);
 
-        m_jLabelError.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jLabelError.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jLabelError.setText(AppLocal.getIntString("label.LoadError")); // NOI18N
         m_jLabelError.setPreferredSize(new java.awt.Dimension(110, 30));
         add(m_jLabelError);
         m_jLabelError.setBounds(30, 30, 490, 30);
 
         jtxtException.setEditable(false);
-        jtxtException.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtException.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jtxtException.setLineWrap(true);
         jtxtException.setWrapStyleWord(true);
         jscrException.setViewportView(jtxtException);

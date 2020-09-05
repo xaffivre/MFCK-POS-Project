@@ -763,7 +763,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         setLayout(new java.awt.BorderLayout());
 
         jToolBar.setFloatable(false);
-        jToolBar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jToolBar.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
 
         btnSave.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/filesave.png"))); // NOI18N
         btnSave.setToolTipText(getBundleString("save"));
@@ -1024,11 +1024,11 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
 
         add(pnlMain, java.awt.BorderLayout.CENTER);
 
-        pnlStatus.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        pnlStatus.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         pnlStatus.setPreferredSize(new java.awt.Dimension(59, 20));
         pnlStatus.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 0, 0));
 
-        lblStatus.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        lblStatus.setFont(new java.awt.Font("MingLiU", 1, 12)); // NOI18N
         lblStatus.setText("Page i of n");
         lblStatus.setMaximumSize(new java.awt.Dimension(59, 18));
         pnlStatus.add(lblStatus);

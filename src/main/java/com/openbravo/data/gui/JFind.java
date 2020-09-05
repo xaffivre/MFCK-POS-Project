@@ -131,28 +131,28 @@ public class JFind extends JDialog {
         setTitle(LocalRes.getIntString("title.find")); // NOI18N
         setResizable(false);
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setText(LocalRes.getIntString("label.findwhat")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jFind.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jFind.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jFind.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(LocalRes.getIntString("label.where")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jWhere.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jWhere.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jWhere.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(LocalRes.getIntString("label.match")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jMatch.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jMatch.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jMatch.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        m_jMatchCase.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jMatchCase.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jMatchCase.setText(LocalRes.getIntString("label.casesensitive")); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -202,7 +202,7 @@ public class JFind extends JDialog {
 
         jPanel2.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
-        jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdCancel.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(LocalRes.getIntString("button.cancel")); // NOI18N
         jcmdCancel.setPreferredSize(new java.awt.Dimension(110, 45));
@@ -213,7 +213,7 @@ public class JFind extends JDialog {
         });
         jPanel2.add(jcmdCancel);
 
-        jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdOK.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(LocalRes.getIntString("button.OK")); // NOI18N
         jcmdOK.setMaximumSize(new java.awt.Dimension(65, 33));

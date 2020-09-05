@@ -361,7 +361,7 @@ public class OrderCustomerList extends JPanel implements TicketSelector {
         setPreferredSize(new java.awt.Dimension(256, 560));
         setLayout(new java.awt.BorderLayout());
 
-        jPanelCustomers.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jPanelCustomers.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jPanelCustomers.setLayout(new java.awt.CardLayout());
         add(jPanelCustomers, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents

@@ -272,7 +272,7 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
         jbtnHTML = new javax.swing.JButton();
         jbtnClearHTML = new javax.swing.JButton();
 
-        setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         setOpaque(false);
         setPreferredSize(new java.awt.Dimension(800, 450));
 
@@ -280,29 +280,29 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
         jPanel11.setOpaque(false);
         jPanel11.setPreferredSize(new java.awt.Dimension(750, 450));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.MachineName")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.looknfeel")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.MachineScreen")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel4.setText(AppLocal.getIntString("label.Ticketsbag")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtMachineHostname.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtMachineHostname.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jtxtMachineHostname.setToolTipText(AppLocal.getIntString("tooltip.config.general.terminal")); // NOI18N
         jtxtMachineHostname.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jtxtMachineHostname.setMinimumSize(new java.awt.Dimension(130, 25));
         jtxtMachineHostname.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jcboLAF.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboLAF.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jcboLAF.setToolTipText(AppLocal.getIntString("tooltip.config.general.skin")); // NOI18N
         jcboLAF.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboLAF.setPreferredSize(new java.awt.Dimension(200, 30));
@@ -312,17 +312,17 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
             }
         });
 
-        jcboMachineScreenmode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboMachineScreenmode.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jcboMachineScreenmode.setToolTipText(AppLocal.getIntString("tooltip.config.general.screen")); // NOI18N
         jcboMachineScreenmode.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachineScreenmode.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jcboTicketsBag.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboTicketsBag.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jcboTicketsBag.setToolTipText(AppLocal.getIntString("tooltip.config.general.tickets")); // NOI18N
         jcboTicketsBag.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboTicketsBag.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jchkHideInfo.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkHideInfo.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jchkHideInfo.setSelected(true);
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jchkHideInfo.setText(bundle.getString("label.Infopanel")); // NOI18N
@@ -334,25 +334,25 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
         jchkHideInfo.setOpaque(false);
         jchkHideInfo.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel18.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel18.setText(bundle.getString("label.startuplogo")); // NOI18N
         jLabel18.setMaximumSize(new java.awt.Dimension(0, 25));
         jLabel18.setMinimumSize(new java.awt.Dimension(0, 0));
         jLabel18.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtStartupLogo.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtStartupLogo.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jtxtStartupLogo.setToolTipText(AppLocal.getIntString("tooltip.config.general.logo")); // NOI18N
         jtxtStartupLogo.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtStartupLogo.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtStartupLogo.setPreferredSize(new java.awt.Dimension(400, 30));
 
-        jLabel19.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel19.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel19.setText(AppLocal.getIntString("label.startuptext")); // NOI18N
         jLabel19.setMaximumSize(new java.awt.Dimension(0, 25));
         jLabel19.setMinimumSize(new java.awt.Dimension(0, 0));
         jLabel19.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtStartupText.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtStartupText.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jtxtStartupText.setToolTipText(AppLocal.getIntString("tooltip.config.general.text")); // NOI18N
         jtxtStartupText.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtStartupText.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -392,7 +392,7 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
             }
         });
 
-        jbtnTextClear.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jbtnTextClear.setFont(new java.awt.Font("MingLiU", 1, 12)); // NOI18N
         jbtnTextClear.setForeground(new java.awt.Color(255, 0, 153));
         jbtnTextClear.setText("X");
         jbtnTextClear.addActionListener(new java.awt.event.ActionListener() {
@@ -401,11 +401,11 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
             }
         });
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.MachineDepartment")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtMachineDepartment.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtMachineDepartment.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jtxtMachineDepartment.setToolTipText(AppLocal.getIntString("tooltip.config.general.dept")); // NOI18N
         jtxtMachineDepartment.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jtxtMachineDepartment.setMinimumSize(new java.awt.Dimension(130, 25));
@@ -415,17 +415,17 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
         lblIP_Address.setBorder(null);
         lblIP_Address.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lblIP_Address.setToolTipText(AppLocal.getIntString("tooltip.config.general.compip")); // NOI18N
-        lblIP_Address.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        lblIP_Address.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         lblIP_Address.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         lblIP_Address.setPreferredSize(new java.awt.Dimension(230, 30));
 
         webLabel1.setBackground(new java.awt.Color(240, 240, 240));
         webLabel1.setBorder(null);
         webLabel1.setText(bundle.getString("label.nameIP")); // NOI18N
-        webLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        webLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         webLabel1.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        jLblURL.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblURL.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblURL.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/pay.png"))); // NOI18N
         jLblURL.setText(AppLocal.getIntString("label.URL")); // NOI18N
         jLblURL.setToolTipText(bundle.getString("tooltip.config.general.URL")); // NOI18N
@@ -439,7 +439,7 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
             }
         });
 
-        jtxtStartupHTML.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtStartupHTML.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jtxtStartupHTML.setToolTipText(AppLocal.getIntString("tooltip.config.general.text")); // NOI18N
         jtxtStartupHTML.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtStartupHTML.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -467,7 +467,7 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
             }
         });
 
-        jbtnClearHTML.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jbtnClearHTML.setFont(new java.awt.Font("MingLiU", 1, 12)); // NOI18N
         jbtnClearHTML.setForeground(new java.awt.Color(255, 0, 153));
         jbtnClearHTML.setText("X");
         jbtnClearHTML.addActionListener(new java.awt.event.ActionListener() {

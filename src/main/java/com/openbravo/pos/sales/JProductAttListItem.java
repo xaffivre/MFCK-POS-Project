@@ -104,12 +104,12 @@ public class JProductAttListItem extends javax.swing.JPanel implements JProductA
         jLabel1 = new javax.swing.JLabel();
         jValues = new javax.swing.JComboBox();
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setText("jLabel1");
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
 
         jValues.setEditable(true);
-        jValues.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jValues.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jValues.setPreferredSize(new java.awt.Dimension(200, 30));
         jValues.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

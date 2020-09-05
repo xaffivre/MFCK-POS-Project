@@ -234,12 +234,12 @@ public class JTicketsBagRestaurant extends javax.swing.JPanel {
         m_DelTicket = new javax.swing.JButton();
         j_btnKitchen = new javax.swing.JButton();
 
-        setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         setMinimumSize(new java.awt.Dimension(250, 50));
         setPreferredSize(new java.awt.Dimension(430, 50));
         setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT, 4, 3));
 
-        j_btnGuests.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        j_btnGuests.setFont(new java.awt.Font("MingLiU", 1, 14)); // NOI18N
         j_btnGuests.setForeground(new java.awt.Color(255, 0, 153));
         j_btnGuests.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_add_sml.png"))); // NOI18N
         j_btnGuests.setToolTipText(AppLocal.getIntString("tooltip.guests")); // NOI18N

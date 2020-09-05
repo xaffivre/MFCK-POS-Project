@@ -363,7 +363,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
     }// </editor-fold>//GEN-END:initComponents
    
     // Variables declaration - do not modify//GEN-BEGIN:variables

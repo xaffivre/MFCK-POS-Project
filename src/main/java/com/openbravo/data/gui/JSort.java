@@ -132,25 +132,25 @@ public class JSort extends JDialog {
         setTitle(LocalRes.getIntString("caption.sort")); // NOI18N
         setResizable(false);
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(LocalRes.getIntString("label.sortby")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jSort1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSort1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jSort1.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(LocalRes.getIntString("label.andby")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jSort2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSort2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jSort2.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel4.setText(LocalRes.getIntString("label.andby")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jSort3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSort3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jSort3.setPreferredSize(new java.awt.Dimension(200, 30));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -194,7 +194,7 @@ public class JSort extends JDialog {
 
         jPanel2.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
-        jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdCancel.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(LocalRes.getIntString("button.cancel")); // NOI18N
         jcmdCancel.setMaximumSize(new java.awt.Dimension(65, 33));
@@ -207,7 +207,7 @@ public class JSort extends JDialog {
         });
         jPanel2.add(jcmdCancel);
 
-        jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdOK.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(LocalRes.getIntString("button.OK")); // NOI18N
         jcmdOK.setMaximumSize(new java.awt.Dimension(65, 33));

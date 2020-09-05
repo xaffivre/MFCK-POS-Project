@@ -517,24 +517,24 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
         setPreferredSize(new java.awt.Dimension(750, 127));
         setResizable(false);
 
-        jPanel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jPanel4.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
 
-        m_jLblTotalEuros1.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        m_jLblTotalEuros1.setFont(new java.awt.Font("MingLiU", 0, 24)); // NOI18N
         m_jLblTotalEuros1.setText(AppLocal.getIntString("label.totalcash")); // NOI18N
         m_jLblTotalEuros1.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jTotalEuros.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        m_jTotalEuros.setFont(new java.awt.Font("MingLiU", 0, 24)); // NOI18N
         m_jTotalEuros.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         m_jTotalEuros.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jTotalEuros.setOpaque(true);
         m_jTotalEuros.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jTotalEuros.setRequestFocusEnabled(false);
 
-        m_jLblRemainingEuros.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        m_jLblRemainingEuros.setFont(new java.awt.Font("MingLiU", 0, 24)); // NOI18N
         m_jLblRemainingEuros.setText(AppLocal.getIntString("label.remainingcash")); // NOI18N
         m_jLblRemainingEuros.setPreferredSize(new java.awt.Dimension(120, 30));
 
-        m_jRemaininglEuros.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        m_jRemaininglEuros.setFont(new java.awt.Font("MingLiU", 1, 24)); // NOI18N
         m_jRemaininglEuros.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         m_jRemaininglEuros.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jRemaininglEuros.setOpaque(true);
@@ -609,7 +609,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         m_jTabPayment.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         m_jTabPayment.setTabPlacement(javax.swing.JTabbedPane.LEFT);
-        m_jTabPayment.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTabPayment.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jTabPayment.setRequestFocusEnabled(false);
         m_jTabPayment.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
@@ -627,7 +627,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
 
         jPanel5.setLayout(new java.awt.BorderLayout());
 
-        m_jButtonCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jButtonCancel.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jButtonCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         m_jButtonCancel.setText(AppLocal.getIntString("button.cancel")); // NOI18N
         m_jButtonCancel.setFocusPainted(false);
@@ -641,7 +641,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
         });
         jPanel2.add(m_jButtonCancel);
 
-        m_jButtonOK.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jButtonOK.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jButtonOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         m_jButtonOK.setText(AppLocal.getIntString("button.OK")); // NOI18N
         m_jButtonOK.setFocusPainted(false);
@@ -675,7 +675,7 @@ public abstract class JPaymentSelect extends javax.swing.JDialog
         });
         jPanel5.add(m_jButtonPrint, java.awt.BorderLayout.LINE_START);
 
-        jlblPrinterStatus.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        jlblPrinterStatus.setFont(new java.awt.Font("MingLiU", 0, 24)); // NOI18N
         jlblPrinterStatus.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jlblPrinterStatus.setText(bundle.getString("label.printerstatusOn")); // NOI18N

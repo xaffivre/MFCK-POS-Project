@@ -128,11 +128,11 @@ public class JPaymentMagcard extends javax.swing.JPanel implements JPaymentInter
         setMinimumSize(new java.awt.Dimension(300, 40));
         setPreferredSize(new java.awt.Dimension(500, 50));
 
-        jPanel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanel1.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanel1.setMinimumSize(new java.awt.Dimension(290, 35));
         jPanel1.setPreferredSize(new java.awt.Dimension(500, 45));
 
-        jlblMessage.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jlblMessage.setFont(new java.awt.Font("MingLiU", 0, 18)); // NOI18N
         jlblMessage.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

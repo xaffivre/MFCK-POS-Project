@@ -349,7 +349,7 @@ public class JImageEditor extends javax.swing.JPanel {
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 5, 0, 5));
-        jPanel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanel2.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanel2.setOpaque(false);
         jPanel2.setLayout(new java.awt.GridLayout(0, 1, 0, 2));
 

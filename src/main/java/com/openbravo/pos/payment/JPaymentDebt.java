@@ -188,66 +188,66 @@ public class JPaymentDebt extends javax.swing.JPanel implements JPaymentInterfac
 
         jPanel5.setLayout(new java.awt.BorderLayout());
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel8.setText(AppLocal.getIntString("label.debt")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(100, 30));
 
         m_jMoneyEuros.setBackground(new java.awt.Color(204, 255, 51));
-        m_jMoneyEuros.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        m_jMoneyEuros.setFont(new java.awt.Font("MingLiU", 1, 18)); // NOI18N
         m_jMoneyEuros.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jMoneyEuros.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jMoneyEuros.setOpaque(true);
         m_jMoneyEuros.setPreferredSize(new java.awt.Dimension(170, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.name")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(100, 30));
 
         m_jName.setEditable(false);
-        m_jName.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jName.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(170, 30));
 
-        jLabel12.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel12.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel12.setText(AppLocal.getIntString("label.notes")); // NOI18N
         jLabel12.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.maxdebt")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(100, 30));
 
         txtMaxdebt.setEditable(false);
-        txtMaxdebt.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        txtMaxdebt.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         txtMaxdebt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtMaxdebt.setPreferredSize(new java.awt.Dimension(170, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel4.setText(AppLocal.getIntString("label.curdebt")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(100, 30));
 
         txtCurdebt.setEditable(false);
-        txtCurdebt.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        txtCurdebt.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         txtCurdebt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtCurdebt.setPreferredSize(new java.awt.Dimension(170, 30));
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.curdate")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(100, 30));
 
         txtCurdate.setEditable(false);
-        txtCurdate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        txtCurdate.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         txtCurdate.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCurdate.setPreferredSize(new java.awt.Dimension(170, 30));
 
         m_jNotes.setEditable(false);
         m_jNotes.setBackground(new java.awt.Color(240, 240, 240));
-        m_jNotes.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jNotes.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jNotes.setBorder(null);
         m_jNotes.setEnabled(false);
         m_jNotes.setPreferredSize(new java.awt.Dimension(170, 80));
         jScrollPane1.setViewportView(m_jNotes);
 
         jlblMessage.setEditable(false);
-        jlblMessage.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlblMessage.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jlblMessage.setForeground(new java.awt.Color(204, 0, 102));
         jlblMessage.setLineWrap(true);
         jlblMessage.setWrapStyleWord(true);
@@ -343,9 +343,9 @@ public class JPaymentDebt extends javax.swing.JPanel implements JPaymentInterfac
         jPanel1.add(m_jKeys);
 
         jPanel3.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        jPanel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jPanel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
 
-        m_jTendered.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTendered.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jTendered.setPreferredSize(new java.awt.Dimension(200, 30));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);

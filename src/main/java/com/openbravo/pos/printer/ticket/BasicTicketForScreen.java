@@ -30,7 +30,7 @@ import java.awt.geom.AffineTransform;
 public class BasicTicketForScreen extends BasicTicket {
 
 //    private static Font BASEFONT = new Font("Monospaced", 
-    private static Font BASEFONT = new Font("Courier New",     
+    private static Font BASEFONT = new Font("MingLiU",     
             Font.PLAIN, 12).deriveFont(AffineTransform.getScaleInstance(1.0, 1.40));
 // JG Feb' 16 - Revert
 // Consolas intro'd in v4.1 but causes issue in RightToLeft languages i.e.: Arabic

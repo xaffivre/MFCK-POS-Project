@@ -31,7 +31,7 @@ import java.awt.geom.AffineTransform;
 public class BasicTicketForPrinter extends BasicTicket {
 
 //    private static final Font BASEFONT = new Font("Monospaced", 
-    private static final Font BASEFONT = new Font("Courier New",     
+    private static final Font BASEFONT = new Font("MingLiU",     
         Font.PLAIN, 7).deriveFont(AffineTransform.getScaleInstance(1.0, 1.50));
     private static final int FONTHEIGHT = 12;
 

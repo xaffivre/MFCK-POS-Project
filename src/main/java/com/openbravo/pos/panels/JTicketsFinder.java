@@ -362,22 +362,22 @@ public class JTicketsFinder extends javax.swing.JDialog implements EditorCreator
 
         jPanel7.setPreferredSize(new java.awt.Dimension(0, 210));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.ticketid")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.user")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel7.setText(AppLocal.getIntString("label.totalcash")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jtxtMoney.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtMoney.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jtxtMoney.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jcboUser.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboUser.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jcboUser.setPreferredSize(new java.awt.Dimension(220, 30));
         jcboUser.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -385,28 +385,28 @@ public class JTicketsFinder extends javax.swing.JDialog implements EditorCreator
             }
         });
 
-        jcboMoney.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboMoney.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jcboMoney.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtTicketID.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jtxtTicketID.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jtxtTicketID.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        labelCustomer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        labelCustomer.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         labelCustomer.setText(AppLocal.getIntString("label.customer")); // NOI18N
         labelCustomer.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.StartDate")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel4.setText(AppLocal.getIntString("label.EndDate")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jTxtStartDate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jTxtStartDate.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jTxtStartDate.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jTxtEndDate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jTxtEndDate.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jTxtEndDate.setPreferredSize(new java.awt.Dimension(150, 30));
 
         btnDateStart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/date.png"))); // NOI18N
@@ -427,7 +427,7 @@ public class JTicketsFinder extends javax.swing.JDialog implements EditorCreator
             }
         });
 
-        jtxtCustomer.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jtxtCustomer.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jtxtCustomer.setPreferredSize(new java.awt.Dimension(150, 30));
 
         btnCustomer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_sml.png"))); // NOI18N
@@ -443,7 +443,7 @@ public class JTicketsFinder extends javax.swing.JDialog implements EditorCreator
             }
         });
 
-        jComboBoxTicket.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboBoxTicket.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jComboBoxTicket.setPreferredSize(new java.awt.Dimension(150, 30));
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
@@ -520,7 +520,7 @@ public class JTicketsFinder extends javax.swing.JDialog implements EditorCreator
 
         jPanel5.add(jPanel7, java.awt.BorderLayout.CENTER);
 
-        jbtnReset.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jbtnReset.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jbtnReset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         jbtnReset.setText(AppLocal.getIntString("button.clean")); // NOI18N
         jbtnReset.setToolTipText("Clear Filter");
@@ -532,7 +532,7 @@ public class JTicketsFinder extends javax.swing.JDialog implements EditorCreator
         });
         jPanel6.add(jbtnReset);
 
-        jbtnExecute.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jbtnExecute.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jbtnExecute.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jbtnExecute.setText(AppLocal.getIntString("button.executefilter")); // NOI18N
         jbtnExecute.setToolTipText("Execute Filter");
@@ -554,7 +554,7 @@ public class JTicketsFinder extends javax.swing.JDialog implements EditorCreator
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
-        jListTickets.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jListTickets.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jListTickets.setFocusable(false);
         jListTickets.setRequestFocusEnabled(false);
         jListTickets.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -588,7 +588,7 @@ public class JTicketsFinder extends javax.swing.JDialog implements EditorCreator
 
         jPanel8.setLayout(new java.awt.BorderLayout());
 
-        jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdCancel.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(AppLocal.getIntString("button.cancel")); // NOI18N
         jcmdCancel.setFocusPainted(false);
@@ -603,7 +603,7 @@ public class JTicketsFinder extends javax.swing.JDialog implements EditorCreator
         });
         jPanel1.add(jcmdCancel);
 
-        jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdOK.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(AppLocal.getIntString("button.OK")); // NOI18N
         jcmdOK.setEnabled(false);
@@ -634,7 +634,7 @@ public class JTicketsFinder extends javax.swing.JDialog implements EditorCreator
         jLblTicketCount.setPreferredSize(new java.awt.Dimension(80, 50));
         jPanel2.add(jLblTicketCount, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 306, -1, -1));
 
-        jLblReturnCount.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblReturnCount.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLblReturnCount.setText(bundle.getString("label.ticketsfound")); // NOI18N
         jLblReturnCount.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 204, 255)));

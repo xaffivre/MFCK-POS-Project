@@ -796,23 +796,23 @@ public class StockManagement extends JPanel implements JPanelView {
         webLblValue = new com.alee.laf.label.WebLabel();
         catcontainer = new javax.swing.JPanel();
 
-        setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         setMinimumSize(new java.awt.Dimension(550, 250));
         setPreferredSize(new java.awt.Dimension(1000, 350));
         setLayout(new java.awt.BorderLayout());
 
-        jPanel8.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanel8.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanel8.setPreferredSize(new java.awt.Dimension(1020, 320));
         jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.stockdate")); // NOI18N
         jLabel1.setMaximumSize(new java.awt.Dimension(40, 25));
         jLabel1.setMinimumSize(new java.awt.Dimension(40, 25));
         jLabel1.setPreferredSize(new java.awt.Dimension(70, 30));
         jPanel8.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 5, -1, -1));
 
-        m_jdate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jdate.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jdate.setPreferredSize(new java.awt.Dimension(160, 30));
         jPanel8.add(m_jdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 5, -1, -1));
 
@@ -825,14 +825,14 @@ public class StockManagement extends JPanel implements JPanelView {
         });
         jPanel8.add(m_jbtndate, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 5, 40, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.stockreason")); // NOI18N
         jLabel2.setMaximumSize(new java.awt.Dimension(40, 25));
         jLabel2.setMinimumSize(new java.awt.Dimension(40, 25));
         jLabel2.setPreferredSize(new java.awt.Dimension(70, 30));
         jPanel8.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 40, -1, -1));
 
-        m_jreason.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jreason.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jreason.setMaximumRowCount(13);
         m_jreason.setPreferredSize(new java.awt.Dimension(160, 30));
         m_jreason.addActionListener(new java.awt.event.ActionListener() {
@@ -842,14 +842,14 @@ public class StockManagement extends JPanel implements JPanelView {
         });
         jPanel8.add(m_jreason, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 40, -1, -1));
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel8.setText(AppLocal.getIntString("label.locationplace")); // NOI18N
         jLabel8.setMaximumSize(new java.awt.Dimension(40, 25));
         jLabel8.setMinimumSize(new java.awt.Dimension(40, 25));
         jLabel8.setPreferredSize(new java.awt.Dimension(70, 30));
         jPanel8.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 75, -1, -1));
 
-        m_jLocation.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jLocation.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jLocation.setPreferredSize(new java.awt.Dimension(160, 30));
         m_jLocation.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -858,18 +858,18 @@ public class StockManagement extends JPanel implements JPanelView {
         });
         jPanel8.add(m_jLocation, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 75, -1, -1));
 
-        m_jLocationDes.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jLocationDes.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jLocationDes.setPreferredSize(new java.awt.Dimension(160, 30));
         jPanel8.add(m_jLocationDes, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 110, -1, -1));
 
-        jLabel10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel10.setText(AppLocal.getIntString("label.supplier")); // NOI18N
         jLabel10.setMaximumSize(new java.awt.Dimension(40, 25));
         jLabel10.setMinimumSize(new java.awt.Dimension(40, 25));
         jLabel10.setPreferredSize(new java.awt.Dimension(70, 30));
         jPanel8.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 145, -1, -1));
 
-        m_jSupplier.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSupplier.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jSupplier.setPreferredSize(new java.awt.Dimension(160, 30));
         m_jSupplier.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -878,7 +878,7 @@ public class StockManagement extends JPanel implements JPanelView {
         });
         jPanel8.add(m_jSupplier, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 145, -1, -1));
 
-        jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel9.setText(AppLocal.getIntString("label.supplierdocment")); // NOI18N
         jLabel9.setToolTipText("null");
         jLabel9.setMaximumSize(new java.awt.Dimension(40, 25));
@@ -886,19 +886,19 @@ public class StockManagement extends JPanel implements JPanelView {
         jLabel9.setPreferredSize(new java.awt.Dimension(70, 30));
         jPanel8.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 180, -1, -1));
 
-        m_jSupplierDoc.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSupplierDoc.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jSupplierDoc.setToolTipText(AppLocal.getIntString("button.exit")); // NOI18N
         m_jSupplierDoc.setPreferredSize(new java.awt.Dimension(160, 30));
         jPanel8.add(m_jSupplierDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 180, -1, -1));
 
         jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
-        jPanel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanel5.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanel5.setPreferredSize(new java.awt.Dimension(455, 245));
         jPanel5.setLayout(new java.awt.BorderLayout());
         jPanel8.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 5, -1, 190));
 
         m_jcodebar.setBackground(java.awt.Color.white);
-        m_jcodebar.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        m_jcodebar.setFont(new java.awt.Font("MingLiU", 1, 14)); // NOI18N
         m_jcodebar.setForeground(new java.awt.Color(76, 197, 237));
         m_jcodebar.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jcodebar.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1)));
@@ -912,7 +912,7 @@ public class StockManagement extends JPanel implements JPanelView {
         });
         jPanel8.add(m_jcodebar, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 270, -1, -1));
 
-        m_jEnter.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jEnter.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jEnter.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/barcode.png"))); // NOI18N
         m_jEnter.setFocusPainted(false);
         m_jEnter.setFocusable(false);
@@ -926,7 +926,7 @@ public class StockManagement extends JPanel implements JPanelView {
         jPanel8.add(m_jEnter, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 260, -1, -1));
 
         jTextField1.setBackground(javax.swing.UIManager.getDefaults().getColor("Panel.background"));
-        jTextField1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(255, 255, 255));
         jTextField1.setCaretColor(javax.swing.UIManager.getDefaults().getColor("Panel.background"));
         jTextField1.setPreferredSize(new java.awt.Dimension(1, 1));
@@ -1006,7 +1006,7 @@ public class StockManagement extends JPanel implements JPanelView {
         });
         jPanel2.add(m_jEditAttributes);
 
-        m_jBtnDelete.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jBtnDelete.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jBtnDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/sale_delete.png"))); // NOI18N
         m_jBtnDelete.setText(AppLocal.getIntString("button.deleteticket")); // NOI18N
         m_jBtnDelete.setToolTipText("Delete current Ticket");
@@ -1059,7 +1059,7 @@ public class StockManagement extends JPanel implements JPanelView {
 
         jPanel8.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 0, 230, 260));
 
-        jScrollPane2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jScrollPane2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
 
         jTableProductStock.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -1076,13 +1076,13 @@ public class StockManagement extends JPanel implements JPanelView {
                 "Location", "Current", "Maximum", "Minimum", "PriceSell", "PriceValue"
             }
         ));
-        jTableProductStock.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTableProductStock.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTableProductStock.setRowHeight(25);
         jScrollPane2.setViewportView(jTableProductStock);
 
         jPanel8.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 220, 650, 70));
 
-        m_jBtnShowStock.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jBtnShowStock.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jBtnShowStock.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/pay.png"))); // NOI18N
         m_jBtnShowStock.setToolTipText(AppLocal.getIntString("tooltip.salecheckstock")); // NOI18N
         m_jBtnShowStock.addActionListener(new java.awt.event.ActionListener() {
@@ -1092,13 +1092,13 @@ public class StockManagement extends JPanel implements JPanelView {
         });
         jPanel8.add(m_jBtnShowStock, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 250, 40, 40));
 
-        lblTotalQtyValue.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        lblTotalQtyValue.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         lblTotalQtyValue.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lblTotalQtyValue.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         lblTotalQtyValue.setPreferredSize(new java.awt.Dimension(100, 30));
         jPanel8.add(lblTotalQtyValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 290, -1, -1));
 
-        lbTotalValue.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        lbTotalValue.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         lbTotalValue.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lbTotalValue.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         lbTotalValue.setPreferredSize(new java.awt.Dimension(100, 30));
@@ -1106,19 +1106,19 @@ public class StockManagement extends JPanel implements JPanelView {
 
         webLblQty.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         webLblQty.setText(AppLocal.getIntString("label.stock.quantity")); // NOI18N
-        webLblQty.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        webLblQty.setFont(new java.awt.Font("MingLiU", 1, 12)); // NOI18N
         webLblQty.setPreferredSize(new java.awt.Dimension(90, 30));
         jPanel8.add(webLblQty, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 290, 100, -1));
 
         webLblValue.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         webLblValue.setText(AppLocal.getIntString("label.stock.value")); // NOI18N
-        webLblValue.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        webLblValue.setFont(new java.awt.Font("MingLiU", 1, 12)); // NOI18N
         webLblValue.setPreferredSize(new java.awt.Dimension(180, 30));
         jPanel8.add(webLblValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(355, 290, 170, -1));
 
         add(jPanel8, java.awt.BorderLayout.PAGE_START);
 
-        catcontainer.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        catcontainer.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         catcontainer.setMinimumSize(new java.awt.Dimension(0, 250));
         catcontainer.setPreferredSize(new java.awt.Dimension(0, 250));
         catcontainer.setRequestFocusEnabled(false);

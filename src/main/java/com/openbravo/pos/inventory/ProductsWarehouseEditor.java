@@ -182,31 +182,31 @@ public class ProductsWarehouseEditor extends javax.swing.JPanel implements Edito
         jLabel5 = new javax.swing.JLabel();
         m_jMaximum = new javax.swing.JTextField();
 
-        m_jTitle.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTitle.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jTitle.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.units")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jQuantity.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jQuantity.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jQuantity.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jQuantity.setEnabled(false);
         m_jQuantity.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel4.setText(AppLocal.getIntString("label.minimum")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jMinimum.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jMinimum.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jMinimum.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jMinimum.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel5.setText(AppLocal.getIntString("label.maximum")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jMaximum.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jMaximum.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jMaximum.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jMaximum.setPreferredSize(new java.awt.Dimension(0, 30));
 

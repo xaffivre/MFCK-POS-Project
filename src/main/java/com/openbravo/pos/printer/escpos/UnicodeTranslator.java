@@ -16,7 +16,6 @@
 //
 //    You should have received a copy of the GNU General Public License
 //    along with uniCenta oPOS.  If not, see <http://www.gnu.org/licenses/>.
-
 package com.openbravo.pos.printer.escpos;
 
 /**
@@ -24,13 +23,13 @@ package com.openbravo.pos.printer.escpos;
  * @author JG uniCenta
  */
 public abstract class UnicodeTranslator {
-    
+
     /**
      *
      * @return
      */
     public abstract byte[] getCodeTable();
-    
+
     /**
      *
      * @param sCad
@@ -41,21 +40,23 @@ public abstract class UnicodeTranslator {
         if (sCad == null) {
             return null;
         } else {
-            byte bAux[] = new byte[sCad.length()];
-            for( int i = 0; i < sCad.length(); i++) {
-                bAux[i] = transChar(sCad.charAt(i));
+            byte[] bytesBig5 = null;
+            try {
+                bytesBig5 = sCad.getBytes("big5");
+            } catch (java.io.UnsupportedEncodingException e) {
+                e.printStackTrace();
             }
-            return bAux;
+            return bytesBig5;
         }
     }
-    
+
     /**
      *
      * @param sChar
      * @return
      */
-    public abstract byte transChar(char sChar);  
- 
+    public abstract byte transChar(char sChar);
+
 //                case '\u0000': return -0x80; // 0x80 :
 //                case '\u0000': return -0x7F; // 0x81 :
 //                case '\u0000': return -0x7E; // 0x82 :
@@ -184,5 +185,4 @@ public abstract class UnicodeTranslator {
 //                case '\u0000': return -0x03; // 0xFD :
 //                case '\u0000': return -0x02; // 0xFE :
 //                case '\u0000': return -0x01; // 0xFF :
-
 }

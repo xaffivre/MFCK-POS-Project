@@ -570,16 +570,16 @@ public class StockQtyImport extends JPanel implements JPanelView {
         jbtnReset = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
-        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         setOpaque(false);
         setPreferredSize(new java.awt.Dimension(700, 350));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLabel1.setText(bundle.getString("label.csvfile")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jFileName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jFileName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jFileName.setPreferredSize(new java.awt.Dimension(300, 30));
         jFileName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -587,7 +587,7 @@ public class StockQtyImport extends JPanel implements JPanelView {
             }
         });
 
-        jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel18.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel18.setText(bundle.getString("label.csvdelimit")); // NOI18N
         jLabel18.setPreferredSize(new java.awt.Dimension(100, 30));
 
@@ -601,7 +601,7 @@ public class StockQtyImport extends JPanel implements JPanelView {
             }
         });
 
-        jComboSeparator.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jComboSeparator.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jComboSeparator.setPreferredSize(new java.awt.Dimension(50, 30));
 
         javax.swing.GroupLayout jFileChooserPanelLayout = new javax.swing.GroupLayout(jFileChooserPanel);
@@ -636,7 +636,7 @@ public class StockQtyImport extends JPanel implements JPanelView {
                 .addContainerGap())
         );
 
-        jFileRead.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jFileRead.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jFileRead.setText(bundle.getString("label.csvread")); // NOI18N
         jFileRead.setEnabled(false);
         jFileRead.setPreferredSize(new java.awt.Dimension(85, 45));
@@ -646,17 +646,17 @@ public class StockQtyImport extends JPanel implements JPanelView {
             }
         });
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true), bundle.getString("title.CSVImport"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14), new java.awt.Color(102, 102, 102))); // NOI18N
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true), bundle.getString("title.CSVImport"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("MingLiU", 1, 14), new java.awt.Color(102, 102, 102))); // NOI18N
 
-        jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel9.setText(bundle.getString("label.csvrecordsfound")); // NOI18N
         jLabel9.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jTextUpdates.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextUpdates.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTextUpdates.setText(bundle.getString("label.csvchanged")); // NOI18N
         jTextUpdates.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jTextRecords.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextRecords.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTextRecords.setForeground(new java.awt.Color(102, 102, 102));
         jTextRecords.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jTextRecords.setBorder(null);
@@ -664,7 +664,7 @@ public class StockQtyImport extends JPanel implements JPanelView {
         jTextRecords.setEnabled(false);
         jTextRecords.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jTextUpdate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextUpdate.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTextUpdate.setForeground(new java.awt.Color(102, 102, 102));
         jTextUpdate.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jTextUpdate.setBorder(null);
@@ -703,15 +703,15 @@ public class StockQtyImport extends JPanel implements JPanelView {
                 .addGap(47, 47, 47))
         );
 
-        webPBar.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
+        webPBar.setFont(new java.awt.Font("MingLiU", 0, 13)); // NOI18N
         webPBar.setPreferredSize(new java.awt.Dimension(240, 30));
 
-        m_jLocation.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jLocation.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jLocation.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jLocation.setText(bundle.getString("label.location")); // NOI18N
         m_jLocation.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jImport.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jImport.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jImport.setText(bundle.getString("label.csvimpostbtn")); // NOI18N
         jImport.setEnabled(false);
         jImport.setPreferredSize(new java.awt.Dimension(85, 45));
@@ -721,7 +721,7 @@ public class StockQtyImport extends JPanel implements JPanelView {
             }
         });
 
-        jbtnReset.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jbtnReset.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jbtnReset.setText(bundle.getString("button.reset")); // NOI18N
         jbtnReset.setPreferredSize(new java.awt.Dimension(85, 45));
         jbtnReset.addActionListener(new java.awt.event.ActionListener() {
@@ -731,7 +731,7 @@ public class StockQtyImport extends JPanel implements JPanelView {
         });
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jLabel2.setText(bundle.getString("label.csvnotice")); // NOI18N
         jLabel2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));

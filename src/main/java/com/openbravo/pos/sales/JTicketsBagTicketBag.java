@@ -75,7 +75,7 @@ public class JTicketsBagTicketBag extends javax.swing.JPanel {
 
         jPanEdit.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT));
 
-        m_jBtnDelete.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jBtnDelete.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jBtnDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/sale_delete.png"))); // NOI18N
         m_jBtnDelete.setText(AppLocal.getIntString("button.deleteticket")); // NOI18N
         m_jBtnDelete.setToolTipText("Delete current Ticket");
@@ -93,7 +93,7 @@ public class JTicketsBagTicketBag extends javax.swing.JPanel {
         });
         jPanEdit.add(m_jBtnDelete);
 
-        m_jBtnCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jBtnCancel.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jBtnCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         m_jBtnCancel.setText(AppLocal.getIntString("button.cancel")); // NOI18N
         m_jBtnCancel.setToolTipText("Cancel Action");

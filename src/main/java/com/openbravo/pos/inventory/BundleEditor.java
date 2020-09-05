@@ -253,11 +253,11 @@ public class BundleEditor extends javax.swing.JPanel implements EditorRecord {
 
         setPreferredSize(new java.awt.Dimension(700, 120));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.prodref")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jReference.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jReference.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jReference.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jReference.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -297,7 +297,7 @@ public class BundleEditor extends javax.swing.JPanel implements EditorRecord {
             }
         });
 
-        m_jBarcode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jBarcode.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jBarcode.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jBarcode.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -305,15 +305,15 @@ public class BundleEditor extends javax.swing.JPanel implements EditorRecord {
             }
         });
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel4.setText(AppLocal.getIntString("label.prodbarcode")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setText("Quantity");
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jQuantity.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jQuantity.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jQuantity.setPreferredSize(new java.awt.Dimension(100, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

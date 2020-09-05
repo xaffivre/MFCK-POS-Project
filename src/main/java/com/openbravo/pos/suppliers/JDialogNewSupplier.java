@@ -158,72 +158,72 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle(AppLocal.getIntString("label.supplier")); // NOI18N
-        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         setResizable(false);
 
-        jPanel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jPanel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
 
-        jLblTaxID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblTaxID.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblTaxID.setText(AppLocal.getIntString("label.taxid")); // NOI18N
         jLblTaxID.setMaximumSize(new java.awt.Dimension(150, 30));
         jLblTaxID.setMinimumSize(new java.awt.Dimension(140, 25));
         jLblTaxID.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jTaxID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTaxID.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jTaxID.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLblSearchkey.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblSearchkey.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblSearchkey.setText(AppLocal.getIntString("label.searchkeym")); // NOI18N
         jLblSearchkey.setPreferredSize(new java.awt.Dimension(82, 30));
 
-        m_jSearchkey.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSearchkey.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jSearchkey.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         m_jSearchkey.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         m_jSearchkey.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLblName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblName.setText(AppLocal.getIntString("label.supplier")); // NOI18N
         jLblName.setMaximumSize(new java.awt.Dimension(140, 25));
         jLblName.setMinimumSize(new java.awt.Dimension(140, 25));
         jLblName.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(400, 30));
 
-        jLblFirstName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblFirstName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblFirstName.setText(AppLocal.getIntString("label.firstname")); // NOI18N
         jLblFirstName.setAlignmentX(0.5F);
         jLblFirstName.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtFirstName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtFirstName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         txtFirstName.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLblLastName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblLastName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblLastName.setText(AppLocal.getIntString("label.lastname")); // NOI18N
         jLblLastName.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtLastName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtLastName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         txtLastName.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLblEmail.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblEmail.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblEmail.setText(AppLocal.getIntString("label.email")); // NOI18N
         jLblEmail.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtEmail.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtEmail.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         txtEmail.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLblTelephone1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblTelephone1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblTelephone1.setText(AppLocal.getIntString("label.phone")); // NOI18N
         jLblTelephone1.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtPhone.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtPhone.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         txtPhone.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLblTelephone2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblTelephone2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblTelephone2.setText(AppLocal.getIntString("label.phone2")); // NOI18N
         jLblTelephone2.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtPhone2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtPhone2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         txtPhone2.setPreferredSize(new java.awt.Dimension(200, 30));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -309,7 +309,7 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
 
         jPanel2.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
-        m_jBtnOK.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jBtnOK.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jBtnOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         m_jBtnOK.setText(AppLocal.getIntString("Button.OK")); // NOI18N
         m_jBtnOK.setFocusPainted(false);
@@ -324,7 +324,7 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         });
         jPanel2.add(m_jBtnOK);
 
-        m_jBtnCancel.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jBtnCancel.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jBtnCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         m_jBtnCancel.setText(AppLocal.getIntString("Button.Cancel")); // NOI18N
         m_jBtnCancel.setFocusPainted(false);

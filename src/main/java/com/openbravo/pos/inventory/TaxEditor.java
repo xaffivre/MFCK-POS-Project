@@ -275,10 +275,10 @@ public class TaxEditor extends JPanel implements EditorRecord {
         jLabel6 = new javax.swing.JLabel();
         jOrder = new javax.swing.JTextField();
 
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/info.png"))); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.name")); // NOI18N
@@ -289,43 +289,43 @@ public class TaxEditor extends JPanel implements EditorRecord {
             }
         });
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.dutyrate")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(170, 30));
 
-        m_jRate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jRate.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jRate.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.taxcategory")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(170, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel4.setText(AppLocal.getIntString("label.custtaxcategory")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(170, 30));
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel5.setText(AppLocal.getIntString("label.taxparent")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(170, 30));
 
-        jCascade.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jCascade.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jCascade.setText(AppLocal.getIntString("label.cascade")); // NOI18N
         jCascade.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        m_jTaxCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTaxCategory.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jTaxCategory.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        m_jTaxParent.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTaxParent.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jTaxParent.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        m_jCustTaxCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCustTaxCategory.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jCustTaxCategory.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.order")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(170, 30));
 
-        jOrder.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jOrder.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jOrder.setPreferredSize(new java.awt.Dimension(0, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

@@ -144,14 +144,14 @@ public class JMessageDialog extends javax.swing.JDialog {
         });
 
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        jPanel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanel4.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanel4.setLayout(new javax.swing.BoxLayout(jPanel4, javax.swing.BoxLayout.Y_AXIS));
 
-        jlblErrorCode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlblErrorCode.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jlblErrorCode.setText("jlblErrorCode");
         jPanel4.add(jlblErrorCode);
 
-        jlblMessage.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlblMessage.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jlblMessage.setText("jlblMessage");
         jlblMessage.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         jlblMessage.setMinimumSize(new java.awt.Dimension(200, 100));
@@ -161,7 +161,7 @@ public class JMessageDialog extends javax.swing.JDialog {
         jscrException.setAlignmentX(0.0F);
 
         jtxtException.setEditable(false);
-        jtxtException.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jtxtException.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jscrException.setViewportView(jtxtException);
 
         jPanel4.add(jscrException);
@@ -174,7 +174,7 @@ public class JMessageDialog extends javax.swing.JDialog {
 
         jPanel3.setLayout(new java.awt.BorderLayout());
 
-        jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdOK.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdOK.setText(LocalRes.getIntString("button.OK")); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jcmdOK.setActionCommand(bundle.getString("button.OK")); // NOI18N
@@ -188,7 +188,7 @@ public class JMessageDialog extends javax.swing.JDialog {
         });
         jPanel2.add(jcmdOK);
 
-        jcmdMore.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdMore.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdMore.setText(LocalRes.getIntString("button.information")); // NOI18N
         jcmdMore.setMaximumSize(new java.awt.Dimension(65, 33));
         jcmdMore.setMinimumSize(new java.awt.Dimension(65, 33));

@@ -519,23 +519,23 @@ public final class StockDiaryEditor extends javax.swing.JPanel implements Editor
         m_jSupplier = new javax.swing.JComboBox();
         jLblLocation1 = new javax.swing.JLabel();
 
-        setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         setMinimumSize(new java.awt.Dimension(550, 250));
         setPreferredSize(new java.awt.Dimension(1000, 550));
         setLayout(new java.awt.BorderLayout());
 
-        jPanel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanel1.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanel1.setMaximumSize(new java.awt.Dimension(2147483647, 2147483647));
         jPanel1.setMinimumSize(new java.awt.Dimension(780, 260));
         jPanel1.setPreferredSize(new java.awt.Dimension(400, 600));
 
-        jLblDate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblDate.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblDate.setText(AppLocal.getIntString("label.stockdate")); // NOI18N
         jLblDate.setMaximumSize(new java.awt.Dimension(23, 20));
         jLblDate.setMinimumSize(new java.awt.Dimension(23, 20));
         jLblDate.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jdate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jdate.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jdate.setMinimumSize(new java.awt.Dimension(40, 20));
         m_jdate.setPreferredSize(new java.awt.Dimension(170, 30));
 
@@ -548,13 +548,13 @@ public final class StockDiaryEditor extends javax.swing.JPanel implements Editor
             }
         });
 
-        jLblReason.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblReason.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblReason.setText(AppLocal.getIntString("label.stockreason")); // NOI18N
         jLblReason.setMaximumSize(new java.awt.Dimension(36, 20));
         jLblReason.setMinimumSize(new java.awt.Dimension(36, 20));
         jLblReason.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jreason.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jreason.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jreason.setPreferredSize(new java.awt.Dimension(170, 30));
         m_jreason.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -562,14 +562,14 @@ public final class StockDiaryEditor extends javax.swing.JPanel implements Editor
             }
         });
 
-        jLblName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblName.setText(AppLocal.getIntString("label.prodname")); // NOI18N
         jLblName.setMaximumSize(new java.awt.Dimension(40, 20));
         jLblName.setMinimumSize(new java.awt.Dimension(40, 20));
         jLblName.setPreferredSize(new java.awt.Dimension(110, 30));
 
         jproduct.setEditable(false);
-        jproduct.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jproduct.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jproduct.setText("  ");
         jproduct.setPreferredSize(new java.awt.Dimension(170, 30));
         jproduct.addActionListener(new java.awt.event.ActionListener() {
@@ -587,21 +587,21 @@ public final class StockDiaryEditor extends javax.swing.JPanel implements Editor
             }
         });
 
-        jLblLocation.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblLocation.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblLocation.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLblLocation.setText("Location");
         jLblLocation.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jLocation.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jLocation.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jLocation.setPreferredSize(new java.awt.Dimension(170, 30));
 
-        jLBCode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLBCode.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLBCode.setText(AppLocal.getIntString("label.prodbarcode")); // NOI18N
         jLBCode.setMaximumSize(new java.awt.Dimension(40, 20));
         jLBCode.setMinimumSize(new java.awt.Dimension(40, 20));
         jLBCode.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jcodebar.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jcodebar.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jcodebar.setPreferredSize(new java.awt.Dimension(170, 30));
         m_jcodebar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -623,13 +623,13 @@ public final class StockDiaryEditor extends javax.swing.JPanel implements Editor
             }
         });
 
-        jLblRef.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblRef.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblRef.setText(AppLocal.getIntString("label.prodref")); // NOI18N
         jLblRef.setMaximumSize(new java.awt.Dimension(40, 20));
         jLblRef.setMinimumSize(new java.awt.Dimension(40, 20));
         jLblRef.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jreference.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jreference.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jreference.setPreferredSize(new java.awt.Dimension(170, 30));
         m_jreference.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -651,14 +651,14 @@ public final class StockDiaryEditor extends javax.swing.JPanel implements Editor
             }
         });
 
-        jLblAtt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblAtt.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblAtt.setText(AppLocal.getIntString("label.attributes")); // NOI18N
         jLblAtt.setMaximumSize(new java.awt.Dimension(48, 20));
         jLblAtt.setMinimumSize(new java.awt.Dimension(48, 20));
         jLblAtt.setPreferredSize(new java.awt.Dimension(110, 30));
 
         jattributes.setEditable(false);
-        jattributes.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jattributes.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jattributes.setPreferredSize(new java.awt.Dimension(170, 30));
         jattributes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -677,32 +677,32 @@ public final class StockDiaryEditor extends javax.swing.JPanel implements Editor
             }
         });
 
-        jLblUnits.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblUnits.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblUnits.setText(AppLocal.getIntString("label.units")); // NOI18N
         jLblUnits.setMaximumSize(new java.awt.Dimension(40, 20));
         jLblUnits.setMinimumSize(new java.awt.Dimension(40, 20));
         jLblUnits.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_junits.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_junits.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_junits.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_junits.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jLblPrice.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblPrice.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblPrice.setText(AppLocal.getIntString("label.price")); // NOI18N
         jLblPrice.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jprice.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jprice.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jprice.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jprice.setPreferredSize(new java.awt.Dimension(170, 30));
 
         catcontainer.setBackground(new java.awt.Color(255, 255, 255));
-        catcontainer.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        catcontainer.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         catcontainer.setMaximumSize(new java.awt.Dimension(2147483647, 2147483647));
         catcontainer.setMinimumSize(new java.awt.Dimension(0, 250));
         catcontainer.setPreferredSize(new java.awt.Dimension(600, 0));
         catcontainer.setLayout(new java.awt.BorderLayout());
 
-        m_jLocationDes.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jLocationDes.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jLocationDes.setEnabled(false);
         m_jLocationDes.setPreferredSize(new java.awt.Dimension(170, 30));
         m_jLocationDes.addActionListener(new java.awt.event.ActionListener() {
@@ -711,17 +711,17 @@ public final class StockDiaryEditor extends javax.swing.JPanel implements Editor
             }
         });
 
-        jLblMoveTo.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblMoveTo.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblMoveTo.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLblMoveTo.setText(bundle.getString("label.moveto")); // NOI18N
         jLblMoveTo.setEnabled(false);
         jLblMoveTo.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jSupplier.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSupplier.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jSupplier.setPreferredSize(new java.awt.Dimension(170, 30));
 
-        jLblLocation1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblLocation1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblLocation1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLblLocation1.setText(AppLocal.getIntString("button.exit")); // NOI18N
         jLblLocation1.setPreferredSize(new java.awt.Dimension(110, 30));

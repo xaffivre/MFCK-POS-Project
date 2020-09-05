@@ -263,7 +263,7 @@ public final class ResourcesView extends JPanel implements EditorRecord {
 
         m_jContainer.setLayout(new java.awt.CardLayout());
 
-        m_jText.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jText.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jScrollPane1.setViewportView(m_jText);
 
         m_jContainer.add(jScrollPane1, "text");
@@ -272,14 +272,14 @@ public final class ResourcesView extends JPanel implements EditorRecord {
 
         jPanel3.add(m_jContainer, java.awt.BorderLayout.CENTER);
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.resname")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        m_jType.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jType.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jType.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jType.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -287,7 +287,7 @@ public final class ResourcesView extends JPanel implements EditorRecord {
             }
         });
 
-        m_jBtnReadScript.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jBtnReadScript.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         m_jBtnReadScript.setText(bundle.getString("button.readscript")); // NOI18N
         m_jBtnReadScript.setPreferredSize(new java.awt.Dimension(80, 30));

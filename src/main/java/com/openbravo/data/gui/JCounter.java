@@ -77,20 +77,20 @@ public class JCounter extends JPanel implements BrowseListener, StateListener  {
         jLabel2 = new javax.swing.JLabel();
         jlblCounter = new javax.swing.JLabel();
 
-        setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         setMaximumSize(new java.awt.Dimension(80, 20));
         setMinimumSize(new java.awt.Dimension(80, 20));
         setPreferredSize(new java.awt.Dimension(80, 20));
 
-        jlblIndex.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlblIndex.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jlblIndex.setText("XX");
         add(jlblIndex);
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText("/");
         add(jLabel2);
 
-        jlblCounter.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlblCounter.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jlblCounter.setText("XX");
         add(jlblCounter);
     }// </editor-fold>//GEN-END:initComponents

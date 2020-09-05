@@ -244,10 +244,10 @@ public class PeopleView extends JPanel implements EditorRecord {
         webCBSecurity = new com.alee.laf.combobox.WebComboBox();
         jLabel6 = new javax.swing.JLabel();
 
-        setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(500, 500));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/info.png"))); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.peoplenamem")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
@@ -257,24 +257,24 @@ public class PeopleView extends JPanel implements EditorRecord {
             }
         });
 
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        m_jVisible.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jVisible.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jVisible.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText(AppLocal.getIntString("label.peoplevisible")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel4.setText(AppLocal.getIntString("label.peopleimage")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jImage.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jImage.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jImage.setPreferredSize(new java.awt.Dimension(300, 250));
 
-        jButton1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/password.png"))); // NOI18N
         jButton1.setText(AppLocal.getIntString("button.peoplepassword")); // NOI18N
         jButton1.setToolTipText("");
@@ -285,24 +285,24 @@ public class PeopleView extends JPanel implements EditorRecord {
             }
         });
 
-        m_jRole.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jRole.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jRole.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.rolem")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jcard.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jcard.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jcard.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLblCardID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblCardID.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblCardID.setText(AppLocal.getIntString("label.card")); // NOI18N
         jLblCardID.setPreferredSize(new java.awt.Dimension(110, 30));
 
         webCBSecurity.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Generate new key", "Delete exisitng key", "Use iButton ID" }));
         webCBSecurity.setSelectedIndex(0);
         webCBSecurity.setToolTipText(AppLocal.getIntString("tooltip.peoplesecurity")); // NOI18N
-        webCBSecurity.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        webCBSecurity.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         webCBSecurity.setPreferredSize(new java.awt.Dimension(140, 45));
         webCBSecurity.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -310,7 +310,7 @@ public class PeopleView extends JPanel implements EditorRecord {
             }
         });
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.Password")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(110, 30));
 

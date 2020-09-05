@@ -178,7 +178,7 @@ public class JProductFinder extends javax.swing.JDialog {
 
         m_jProductSelect.setLayout(new java.awt.BorderLayout());
 
-        jButton3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jButton3.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jButton3.setText(AppLocal.getIntString("button.executefilter")); // NOI18N
         jButton3.setToolTipText("Execute Filter");
@@ -195,14 +195,14 @@ public class JProductFinder extends javax.swing.JDialog {
         jPanel2.add(m_jProductSelect, java.awt.BorderLayout.NORTH);
 
         jPanel5.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        jPanel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jPanel5.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jPanel5.setPreferredSize(new java.awt.Dimension(450, 140));
         jPanel5.setLayout(new java.awt.BorderLayout());
 
-        jScrollPane1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jScrollPane1.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jScrollPane1.setPreferredSize(new java.awt.Dimension(400, 147));
 
-        jListProducts.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jListProducts.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jListProducts.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jListProducts.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -235,7 +235,7 @@ public class JProductFinder extends javax.swing.JDialog {
 
         jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
-        jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdCancel.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(AppLocal.getIntString("button.cancel")); // NOI18N
         jcmdCancel.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -249,7 +249,7 @@ public class JProductFinder extends javax.swing.JDialog {
         });
         jPanel1.add(jcmdCancel);
 
-        jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdOK.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(AppLocal.getIntString("button.OK")); // NOI18N
         jcmdOK.setEnabled(false);

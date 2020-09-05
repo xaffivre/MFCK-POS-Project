@@ -60,11 +60,11 @@ public class InvEditLine extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         webLabel1.setText(AppLocal.getIntString("button.exit")); // NOI18N
-        webLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        webLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         webLabel1.setPreferredSize(new java.awt.Dimension(130, 30));
 
         webTxtPriceBuy.setText("webTextField1");
-        webTxtPriceBuy.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        webTxtPriceBuy.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         webTxtPriceBuy.setPreferredSize(new java.awt.Dimension(200, 30));
 
         webButtonOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N

@@ -120,7 +120,7 @@ public class DeviceDisplayWindow extends javax.swing.JFrame implements DeviceDis
         setTitle(AppLocal.getIntString("display.window")); // NOI18N
 
         m_jContainer.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        m_jContainer.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        m_jContainer.setFont(new java.awt.Font("MingLiU", 0, 11)); // NOI18N
         m_jContainer.setLayout(new java.awt.BorderLayout());
         getContentPane().add(m_jContainer, java.awt.BorderLayout.CENTER);
 

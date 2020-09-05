@@ -397,7 +397,7 @@ public class PaymentPanelMagCard extends javax.swing.JPanel implements PaymentPa
 
         setLayout(new java.awt.BorderLayout());
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText(AppLocal.getIntString("message.paymentgatewayswipe")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(263, 30));
@@ -405,7 +405,7 @@ public class PaymentPanelMagCard extends javax.swing.JPanel implements PaymentPa
 
         add(jPanel2, java.awt.BorderLayout.NORTH);
 
-        jReset.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jReset.setFont(new java.awt.Font("MingLiU", 0, 11)); // NOI18N
         jReset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         jReset.setText(AppLocal.getIntString("button.reset")); // NOI18N
         jReset.setFocusPainted(false);
@@ -420,30 +420,30 @@ public class PaymentPanelMagCard extends javax.swing.JPanel implements PaymentPa
 
         m_jKeyFactory.setPreferredSize(new java.awt.Dimension(1, 1));
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.cardnumber")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel7.setText(AppLocal.getIntString("label.cardexpdate")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jExpirationDate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jExpirationDate.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jExpirationDate.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jExpirationDate.setOpaque(true);
         m_jExpirationDate.setPreferredSize(new java.awt.Dimension(180, 30));
 
-        m_jCardNumber.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCardNumber.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jCardNumber.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jCardNumber.setOpaque(true);
         m_jCardNumber.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel8.setText(AppLocal.getIntString("label.cardholder")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(150, 30));
 
         m_jHolderName.setBackground(java.awt.Color.white);
-        m_jHolderName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jHolderName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jHolderName.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jHolderName.setOpaque(true);
         m_jHolderName.setPreferredSize(new java.awt.Dimension(200, 30));

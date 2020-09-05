@@ -42,9 +42,9 @@ public final class UomEditor extends javax.swing.JPanel implements EditorRecord 
         jLabel2 = new javax.swing.JLabel();
         m_jName = new javax.swing.JTextField();
 
-        setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/info.png"))); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.name")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(100, 30));
@@ -54,7 +54,7 @@ public final class UomEditor extends javax.swing.JPanel implements EditorRecord 
             }
         });
 
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(200, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

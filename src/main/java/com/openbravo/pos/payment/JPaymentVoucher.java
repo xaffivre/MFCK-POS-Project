@@ -199,12 +199,12 @@ public class JPaymentVoucher extends javax.swing.JPanel implements JPaymentInter
 
         setLayout(new java.awt.BorderLayout());
 
-        jLabel5.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("MingLiU", 1, 18)); // NOI18N
         jLabel5.setLabelFor(m_jVoucher);
         jLabel5.setText(AppLocal.getIntString("label.voucher")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jVoucher.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jVoucher.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jVoucher.setPreferredSize(new java.awt.Dimension(180, 30));
         m_jVoucher.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -212,12 +212,12 @@ public class JPaymentVoucher extends javax.swing.JPanel implements JPaymentInter
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 1, 18)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.voucherValue")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(100, 30));
 
         m_jMoneyEuros.setBackground(new java.awt.Color(204, 255, 51));
-        m_jMoneyEuros.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        m_jMoneyEuros.setFont(new java.awt.Font("MingLiU", 1, 18)); // NOI18N
         m_jMoneyEuros.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jMoneyEuros.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jMoneyEuros.setOpaque(true);
@@ -225,20 +225,20 @@ public class JPaymentVoucher extends javax.swing.JPanel implements JPaymentInter
 
         webLblCustomer.setText(AppLocal.getIntString("label.customer")); // NOI18N
         webLblCustomer.setToolTipText("");
-        webLblCustomer.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        webLblCustomer.setFont(new java.awt.Font("MingLiU", 1, 18)); // NOI18N
         webLblCustomer.setPreferredSize(new java.awt.Dimension(100, 30));
 
         webLblcustomerName.setText(AppLocal.getIntString("label.customer")); // NOI18N
         webLblcustomerName.setToolTipText("");
-        webLblcustomerName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        webLblcustomerName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         webLblcustomerName.setPreferredSize(new java.awt.Dimension(100, 30));
 
         voucherStatus.setText(AppLocal.getIntString("label.voucherStatus")); // NOI18N
         voucherStatus.setToolTipText("");
-        voucherStatus.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        voucherStatus.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         voucherStatus.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        jLabel6.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("MingLiU", 1, 18)); // NOI18N
         jLabel6.setLabelFor(m_jVoucher);
         jLabel6.setText(AppLocal.getIntString("label.voucherStatus")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(100, 30));
@@ -300,7 +300,7 @@ public class JPaymentVoucher extends javax.swing.JPanel implements JPaymentInter
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel1.setLayout(new java.awt.BorderLayout());
 
-        m_jTendered.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jTendered.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         m_jTendered.setPreferredSize(new java.awt.Dimension(130, 30));
         jPanel1.add(m_jTendered, java.awt.BorderLayout.CENTER);
 

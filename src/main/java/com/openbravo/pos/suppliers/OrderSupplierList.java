@@ -330,7 +330,7 @@ public class OrderSupplierList extends JPanel implements SupplierTicketSelector 
         setPreferredSize(new java.awt.Dimension(256, 560));
         setLayout(new java.awt.BorderLayout());
 
-        jPanelSuppliers.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jPanelSuppliers.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jPanelSuppliers.setLayout(new java.awt.CardLayout());
         add(jPanelSuppliers, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents

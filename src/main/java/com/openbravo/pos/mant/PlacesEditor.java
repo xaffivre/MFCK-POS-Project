@@ -236,30 +236,30 @@ public final class PlacesEditor extends JPanel implements EditorRecord {
         m_jX = new javax.swing.JTextField();
         m_jY = new javax.swing.JTextField();
 
-        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.name")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.placefloor")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel6.setText(AppLocal.getIntString("label.placepositionx")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel5.setText("Across");
         jLabel5.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel3.setText("Down");
         jLabel3.setPreferredSize(new java.awt.Dimension(0, 30));
 
         jLabel7.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(102, 102, 102));
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
@@ -270,41 +270,41 @@ public final class PlacesEditor extends JPanel implements EditorRecord {
         jLabel7.setOpaque(true);
         jLabel7.setPreferredSize(new java.awt.Dimension(489, 40));
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel8.setText(AppLocal.getIntString("label.seats")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel9.setText(AppLocal.getIntString("label.btnwidth")); // NOI18N
         jLabel9.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel11.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel11.setText(AppLocal.getIntString("label.placepositiony")); // NOI18N
         jLabel11.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel10.setText(AppLocal.getIntString("label.btnheight")); // NOI18N
         jLabel10.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        m_jFloor.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jFloor.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jFloor.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        m_jSeats.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSeats.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jSeats.setPreferredSize(new java.awt.Dimension(50, 30));
 
-        m_jWidth.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jWidth.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jWidth.setPreferredSize(new java.awt.Dimension(50, 30));
 
-        m_jHeight.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jHeight.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jHeight.setPreferredSize(new java.awt.Dimension(50, 30));
 
-        m_jX.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jX.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jX.setPreferredSize(new java.awt.Dimension(50, 30));
 
-        m_jY.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jY.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jY.setPreferredSize(new java.awt.Dimension(50, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

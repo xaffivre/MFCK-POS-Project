@@ -272,7 +272,7 @@ public void resetTranxTable() {
     jTableCategoryStock.getColumnModel().getColumn(0).setPreferredWidth(250);
     
     // set font for headers
-    Font f = new Font("Arial", Font.BOLD, 14);
+    Font f = new Font("MingLiU", Font.BOLD, 14);
     JTableHeader header = jTableCategoryStock.getTableHeader();
     header.setFont(f);
       
@@ -393,10 +393,10 @@ public void resetTranxTable() {
 
         jInternalFrame1.setVisible(true);
 
-        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(750, 500));
 
-        jLblName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblName.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/info.png"))); // NOI18N
         jLblName.setText(AppLocal.getIntString("label.namem")); // NOI18N
         jLblName.setPreferredSize(new java.awt.Dimension(125, 30));
@@ -406,48 +406,48 @@ public void resetTranxTable() {
             }
         });
 
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLblCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblCategory.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblCategory.setText(AppLocal.getIntString("label.prodcategory")); // NOI18N
         jLblCategory.setPreferredSize(new java.awt.Dimension(125, 30));
 
-        m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCategory.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jCategory.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLblTextTip.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblTextTip.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLblTextTip.setText(bundle.getString("label.texttip")); // NOI18N
         jLblTextTip.setPreferredSize(new java.awt.Dimension(125, 30));
 
-        m_jTextTip.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTextTip.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jTextTip.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLblCatShowName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblCatShowName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblCatShowName.setText(bundle.getString("label.subcategorytitle")); // NOI18N
         jLblCatShowName.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jCatNameShow.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCatNameShow.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jCatNameShow.setSelected(true);
         m_jCatNameShow.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        jLblCatOrder.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblCatOrder.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblCatOrder.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLblCatOrder.setText(bundle.getString("label.ccatorder")); // NOI18N
         jLblCatOrder.setPreferredSize(new java.awt.Dimension(60, 30));
 
-        m_jCatOrder.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCatOrder.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jCatOrder.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         m_jCatOrder.setPreferredSize(new java.awt.Dimension(60, 30));
 
-        jLblInCat.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblInCat.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblInCat.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLblInCat.setText(bundle.getString("label.CatalogueStatusYes")); // NOI18N
         jLblInCat.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         jLblInCat.setPreferredSize(new java.awt.Dimension(125, 30));
 
-        webSwtch_InCatalog.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        webSwtch_InCatalog.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         webSwtch_InCatalog.setPreferredSize(new java.awt.Dimension(80, 30));
         webSwtch_InCatalog.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -457,7 +457,7 @@ public void resetTranxTable() {
 
         m_jImage.setPreferredSize(new java.awt.Dimension(270, 200));
 
-        jBtnShowTrans.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jBtnShowTrans.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jBtnShowTrans.setText(bundle.getString("button.CatProds")); // NOI18N
         jBtnShowTrans.setToolTipText("");
         jBtnShowTrans.setPreferredSize(new java.awt.Dimension(140, 30));
@@ -467,12 +467,12 @@ public void resetTranxTable() {
             }
         });
 
-        jLblProdCount.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblProdCount.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLblProdCount.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLblProdCount.setOpaque(true);
         jLblProdCount.setPreferredSize(new java.awt.Dimension(237, 30));
 
-        jScrollPane2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jScrollPane2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jScrollPane2.setPreferredSize(new java.awt.Dimension(650, 300));
 
         jTableCategoryStock.setAutoCreateRowSorter(true);
@@ -503,7 +503,7 @@ public void resetTranxTable() {
                 "Name", "Barcode"
             }
         ));
-        jTableCategoryStock.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTableCategoryStock.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jTableCategoryStock.setGridColor(new java.awt.Color(102, 204, 255));
         jTableCategoryStock.setPreferredSize(new java.awt.Dimension(310, 500));
         jTableCategoryStock.setRowHeight(25);

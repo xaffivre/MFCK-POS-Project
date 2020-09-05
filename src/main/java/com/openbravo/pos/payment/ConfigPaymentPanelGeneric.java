@@ -88,18 +88,18 @@ public class ConfigPaymentPanelGeneric extends javax.swing.JPanel implements Pay
         setBackground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(400, 90));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.commerceid")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtCommerceID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtCommerceID.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jtxtCommerceID.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jLabel2.setText(AppLocal.getIntString("label.commercepwd")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jtxtCommercePwd.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtCommercePwd.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         jtxtCommercePwd.setPreferredSize(new java.awt.Dimension(200, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

@@ -128,7 +128,7 @@ public class JListData extends javax.swing.JDialog {
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.SOUTH);
 
-        m_jData.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jData.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
         m_jData.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jScrollPane1.setViewportView(m_jData);
 

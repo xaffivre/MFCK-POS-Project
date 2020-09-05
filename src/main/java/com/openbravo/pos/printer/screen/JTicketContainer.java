@@ -121,7 +121,7 @@ class JTicketContainer extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(700, 600));
         setLayout(new java.awt.BorderLayout());
     }// </editor-fold>//GEN-END:initComponents
