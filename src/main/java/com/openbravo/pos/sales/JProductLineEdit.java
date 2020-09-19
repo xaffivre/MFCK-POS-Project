@@ -273,15 +273,15 @@ public class JProductLineEdit extends javax.swing.JDialog {
         jLabel2.setText(AppLocal.getIntString("label.units")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(132, 30));
 
         m_jUnits.setEnabled(false);
-        m_jUnits.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        m_jUnits.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jUnits.setPreferredSize(new java.awt.Dimension(132, 30));
 
         m_jPrice.setEnabled(false);
-        m_jPrice.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        m_jPrice.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPrice.setPreferredSize(new java.awt.Dimension(132, 30));
 
         jLabel6.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
@@ -289,7 +289,7 @@ public class JProductLineEdit extends javax.swing.JDialog {
         jLabel6.setPreferredSize(new java.awt.Dimension(110, 30));
 
         m_jTotal.setBackground(javax.swing.UIManager.getDefaults().getColor("TextField.disabledBackground"));
-        m_jTotal.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
+        m_jTotal.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jTotal.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jTotal.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jTotal.setOpaque(true);
@@ -301,7 +301,7 @@ public class JProductLineEdit extends javax.swing.JDialog {
         jLabel7.setPreferredSize(new java.awt.Dimension(110, 30));
 
         m_jSubtotal.setBackground(javax.swing.UIManager.getDefaults().getColor("TextField.disabledBackground"));
-        m_jSubtotal.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
+        m_jSubtotal.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jSubtotal.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jSubtotal.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jSubtotal.setOpaque(true);

@@ -213,8 +213,8 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         jTabbedPane1.removeTabAt(2); //dont delete image
         jLabel13.setVisible(true);
         m_jAtt.setVisible(true);
-        m_jVerpatrib.setVisible(false);
-        jLabel26.setVisible(false);
+        m_jVerpatrib.setVisible(true);
+        jLabel26.setVisible(true );
         m_jUom.setVisible(false);
    }
     
