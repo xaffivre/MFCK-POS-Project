@@ -715,10 +715,10 @@ public void resetTranxTable() {
         m_jdate = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
 
-        setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(1000, 600));
 
-        jLabel7.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/info.png"))); // NOI18N
         jLabel7.setText(AppLocal.getIntString("label.taxid")); // NOI18N
         jLabel7.setMaximumSize(new java.awt.Dimension(150, 30));
@@ -730,32 +730,32 @@ public void resetTranxTable() {
             }
         });
 
-        m_jTaxID.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        m_jTaxID.setFont(new java.awt.Font("MingLiu", 0, 14));
         m_jTaxID.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel8.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel8.setText(AppLocal.getIntString("label.searchkeym")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jSearchkey.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        m_jSearchkey.setFont(new java.awt.Font("MingLiu", 0, 14));
         m_jSearchkey.setPreferredSize(new java.awt.Dimension(140, 30));
 
-        jLabel3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel3.setText(AppLocal.getIntString("label.namem")); // NOI18N
         jLabel3.setMaximumSize(new java.awt.Dimension(140, 25));
         jLabel3.setMinimumSize(new java.awt.Dimension(140, 25));
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        m_jName.setFont(new java.awt.Font("MingLiu", 0, 14));
         m_jName.setPreferredSize(new java.awt.Dimension(410, 30));
 
-        jLabel5.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel5.setText(AppLocal.getIntString("label.card")); // NOI18N
         jLabel5.setMaximumSize(new java.awt.Dimension(140, 25));
         jLabel5.setMinimumSize(new java.awt.Dimension(140, 25));
         jLabel5.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jcard.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jcard.setFont(new java.awt.Font("MingLiu", 0, 14));
         jcard.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jBtnCreateCard.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/encrypted.png"))); // NOI18N
@@ -780,26 +780,26 @@ public void resetTranxTable() {
             }
         });
 
-        jLabel9.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel9.setText(AppLocal.getIntString("label.custtaxcategory")); // NOI18N
         jLabel9.setMaximumSize(new java.awt.Dimension(140, 25));
         jLabel9.setMinimumSize(new java.awt.Dimension(140, 25));
         jLabel9.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jCategory.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        m_jCategory.setFont(new java.awt.Font("MingLiu", 0, 14));
         m_jCategory.setPreferredSize(new java.awt.Dimension(180, 30));
 
-        jLabel4.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel4.setText(AppLocal.getIntString("label.visible")); // NOI18N
         jLabel4.setMaximumSize(new java.awt.Dimension(140, 25));
         jLabel4.setMinimumSize(new java.awt.Dimension(140, 25));
         jLabel4.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jVisible.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
+        m_jVisible.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jVisible.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jVisible.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        jLabel1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText(AppLocal.getIntString("label.maxdebt")); // NOI18N
         jLabel1.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
@@ -807,11 +807,11 @@ public void resetTranxTable() {
         jLabel1.setMinimumSize(new java.awt.Dimension(120, 25));
         jLabel1.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        txtMaxdebt.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtMaxdebt.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtMaxdebt.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtMaxdebt.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        jLabel2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText(AppLocal.getIntString("label.curdebt")); // NOI18N
         jLabel2.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
@@ -820,73 +820,73 @@ public void resetTranxTable() {
         jLabel2.setPreferredSize(new java.awt.Dimension(130, 30));
 
         txtCurdebt.setEditable(false);
-        txtCurdebt.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtCurdebt.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtCurdebt.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCurdebt.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        jLabel6.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText(AppLocal.getIntString("label.curdate")); // NOI18N
         jLabel6.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
         jLabel6.setPreferredSize(new java.awt.Dimension(130, 30));
 
         txtCurdate.setEditable(false);
-        txtCurdate.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtCurdate.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtCurdate.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCurdate.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        jTabbedPane1.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jTabbedPane1.setFont(new java.awt.Font("MingLiu", 0, 14));
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(650, 300));
 
-        jPanel1.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
+        jPanel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
-        jLabel19.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel19.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel19.setText(AppLocal.getIntString("label.firstname")); // NOI18N
         jLabel19.setAlignmentX(0.5F);
         jLabel19.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtFirstName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtFirstName.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtFirstName.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        jLabel15.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel15.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel15.setText(AppLocal.getIntString("label.lastname")); // NOI18N
         jLabel15.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtLastName.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtLastName.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtLastName.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        jLabel16.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel16.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel16.setText(AppLocal.getIntString("label.email")); // NOI18N
         jLabel16.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtEmail.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtEmail.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtEmail.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        jLabel17.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel17.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel17.setText(AppLocal.getIntString("label.phone")); // NOI18N
         jLabel17.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtPhone.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtPhone.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtPhone.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        jLabel18.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel18.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel18.setText(AppLocal.getIntString("label.phone2")); // NOI18N
         jLabel18.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtPhone2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtPhone2.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtPhone2.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        jLabel14.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel14.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel14.setText(AppLocal.getIntString("label.fax")); // NOI18N
         jLabel14.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtFax.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtFax.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtFax.setPreferredSize(new java.awt.Dimension(300, 30));
 
         webBtnMail.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/mail24.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         webBtnMail.setText(bundle.getString("button.email")); // NOI18N
-        webBtnMail.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
+        webBtnMail.setFont(new java.awt.Font("MingLiu", 0, 12));
         webBtnMail.setPreferredSize(new java.awt.Dimension(90, 30));
         webBtnMail.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -960,48 +960,48 @@ public void resetTranxTable() {
 
         jTabbedPane1.addTab(AppLocal.getIntString("label.contact"), jPanel1); // NOI18N
 
-        jPanel2.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
+        jPanel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
-        jLabel13.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel13.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel13.setText(AppLocal.getIntString("label.address")); // NOI18N
         jLabel13.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtAddress.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtAddress.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtAddress.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        jLabel20.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel20.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel20.setText(AppLocal.getIntString("label.country")); // NOI18N
         jLabel20.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtCountry.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtCountry.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtCountry.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        jLabel21.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel21.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel21.setText(AppLocal.getIntString("label.address2")); // NOI18N
         jLabel21.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtAddress2.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtAddress2.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtAddress2.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        jLabel22.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
-        jLabel22.setText(AppLocal.getIntString("label.postal")); // NOI18N
+        jLabel22.setFont(new java.awt.Font("MingLiu", 0, 14));
+        jLabel22.setText(AppLocal.getIntString("label.postal"));
         jLabel22.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        txtPostal.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtPostal.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtPostal.setPreferredSize(new java.awt.Dimension(0, 30));
 
-        jLabel23.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel23.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel23.setText(AppLocal.getIntString("label.city")); // NOI18N
         jLabel23.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtCity.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtCity.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtCity.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        jLabel24.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel24.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel24.setText(AppLocal.getIntString("label.region")); // NOI18N
         jLabel24.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        txtRegion.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtRegion.setFont(new java.awt.Font("MingLiu", 0, 14));
         txtRegion.setPreferredSize(new java.awt.Dimension(300, 30));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -1059,10 +1059,10 @@ public void resetTranxTable() {
 
         jTabbedPane1.addTab(AppLocal.getIntString("label.locationaddress"), jPanel2); // NOI18N
 
-        jPanel4.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
+        jPanel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel4.setPreferredSize(new java.awt.Dimension(535, 0));
 
-        jBtnShowTrans.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jBtnShowTrans.setFont(new java.awt.Font("MingLiu", 0, 14));
         jBtnShowTrans.setText(bundle.getString("button.CustomerTrans")); // NOI18N
         jBtnShowTrans.setToolTipText("");
         jBtnShowTrans.setPreferredSize(new java.awt.Dimension(140, 30));
@@ -1072,11 +1072,11 @@ public void resetTranxTable() {
             }
         });
 
-        jScrollPane3.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jScrollPane3.setFont(new java.awt.Font("MingLiu", 0, 14));
         jScrollPane3.setPreferredSize(new java.awt.Dimension(620, 500));
 
         jTableCustomerTransactions.setAutoCreateRowSorter(true);
-        jTableCustomerTransactions.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jTableCustomerTransactions.setFont(new java.awt.Font("MingLiu", 0, 14));
         jTableCustomerTransactions.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
@@ -1181,7 +1181,7 @@ public void resetTranxTable() {
                 {null, null, null, null, null}
             },
             new String [] {
-                "TicketID", "Date", "Product", "Qty", "Total"
+                "發票號碼", "日期", "產品", "數量", "價值"
             }
         ));
         jTableCustomerTransactions.setGridColor(new java.awt.Color(102, 204, 255));
@@ -1191,7 +1191,7 @@ public void resetTranxTable() {
         jTableCustomerTransactions.setShowVerticalLines(false);
         jScrollPane3.setViewportView(jTableCustomerTransactions);
 
-        jLblTranCount.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLblTranCount.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLblTranCount.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLblTranCount.setOpaque(true);
         jLblTranCount.setPreferredSize(new java.awt.Dimension(50, 30));
@@ -1219,15 +1219,15 @@ public void resetTranxTable() {
                     .addComponent(jBtnShowTrans, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLblTranCount, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 233, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 236, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab(bundle.getString("label.Transactions"), jPanel4); // NOI18N
 
-        m_jImage.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
+        m_jImage.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jImage.setPreferredSize(new java.awt.Dimension(300, 250));
 
-        jLabel34.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel34.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel34.setText(bundle.getString("label.imagesize")); // NOI18N
         jLabel34.setPreferredSize(new java.awt.Dimension(500, 30));
 
@@ -1257,9 +1257,9 @@ public void resetTranxTable() {
 
         jTabbedPane1.addTab(bundle.getString("label.photo"), jPanel5); // NOI18N
 
-        jPanel3.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
+        jPanel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
-        m_jNotes.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        m_jNotes.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jNotes.setPreferredSize(new java.awt.Dimension(0, 0));
         jScrollPane1.setViewportView(m_jNotes);
 
@@ -1276,18 +1276,18 @@ public void resetTranxTable() {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 247, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 250, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
         jTabbedPane1.addTab(AppLocal.getIntString("label.notes"), jPanel3); // NOI18N
 
-        jLblVIP.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLblVIP.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLblVIP.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLblVIP.setText(AppLocal.getIntString("label.vip")); // NOI18N
         jLblVIP.setPreferredSize(new java.awt.Dimension(50, 30));
 
-        m_jVip.setFont(new java.awt.Font("MingLiU", 0, 12)); // NOI18N
+        m_jVip.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jVip.setForeground(new java.awt.Color(0, 188, 243));
         m_jVip.setPreferredSize(new java.awt.Dimension(21, 30));
         m_jVip.addChangeListener(new javax.swing.event.ChangeListener() {
@@ -1301,16 +1301,16 @@ public void resetTranxTable() {
             }
         });
 
-        jLblDiscount.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLblDiscount.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLblDiscount.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLblDiscount.setText(AppLocal.getIntString("label.discount")); // NOI18N
         jLblDiscount.setPreferredSize(new java.awt.Dimension(70, 30));
 
-        txtDiscount.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        txtDiscount.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDiscount.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtDiscount.setPreferredSize(new java.awt.Dimension(50, 30));
 
-        jLblDiscountpercent.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLblDiscountpercent.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLblDiscountpercent.setText("%");
         jLblDiscountpercent.setPreferredSize(new java.awt.Dimension(15, 30));
 
@@ -1322,10 +1322,10 @@ public void resetTranxTable() {
             }
         });
 
-        m_jdate.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        m_jdate.setFont(new java.awt.Font("MingLiu", 0, 14));
         m_jdate.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        jLabel10.setFont(new java.awt.Font("MingLiU", 0, 14)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("MingLiu", 0, 14));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText(bundle.getString("label.customerdate")); // NOI18N
         jLabel10.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
