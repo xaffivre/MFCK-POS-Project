@@ -124,7 +124,9 @@ public class JCustomerFinder extends javax.swing.JDialog implements EditorCreato
         initComponents();
 
         jScrollPane1.getVerticalScrollBar().setPreferredSize(new Dimension(35, 35));
-
+        
+        m_jtxtPostal.setVisible(false);
+        jLblPostal.setVisible(false);
         m_jtxtTaxID.addEditorKeys(m_jKeys);
         m_jtxtSearchKey.addEditorKeys(m_jKeys);
         m_jtxtName.addEditorKeys(m_jKeys);

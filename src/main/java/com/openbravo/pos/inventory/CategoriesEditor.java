@@ -83,7 +83,9 @@ public final class CategoriesEditor extends JPanel implements EditorRecord {
         dlSales = (DataLogicSales) app.getBean("com.openbravo.pos.forms.DataLogicSales");
         
         initComponents();
-             
+        jLblInCat.setVisible(false);
+        webSwtch_InCatalog.setVisible(false);
+        m_jImage.setPreferredSize(new java.awt.Dimension(270, 250));
         // El modelo de categorias
         m_sentcat = dlSales.getCategoriesList();
         m_CategoryModel = new ComboBoxValModel();

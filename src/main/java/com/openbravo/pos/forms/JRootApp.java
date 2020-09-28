@@ -753,7 +753,7 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
                 btn.setFocusPainted(false);
                 btn.setFocusable(false);
                 btn.setRequestFocusEnabled(false);
-                int button_size = 220;
+                int button_size = 190;
                 btn.setMaximumSize(new Dimension(button_size, button_size));
                 btn.setPreferredSize(new Dimension(button_size, button_size));
                 btn.setMinimumSize(new Dimension(button_size, button_size));
