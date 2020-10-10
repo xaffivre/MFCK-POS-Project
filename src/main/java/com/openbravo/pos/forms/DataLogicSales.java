@@ -953,7 +953,31 @@ public class DataLogicSales extends BeanFactoryDataSingle {
                 , ProductStock.getSerializerRead());
 
         ProductStock productStock = (ProductStock) preparedSentence.find(pId, location);
+        /*
+        PreparedSentence preparedSentence2 = new PreparedSentence(s,
+        "SELECT " +
+                "products.id, " +
+                "locations.id as Location, " +
+                "stockcurrent.units AS Current, " +
+                "stocklevel.stocksecurity AS Minimum, " +
+                "stocklevel.stockmaximum AS Maximum, " +
+                "products.pricebuy, " +
+                "products.pricesell, " +
+                "products.memodate, " +
+                "products.stockcost " +
+                "FROM locations " +
+                "INNER JOIN ((products " +
+                "INNER JOIN stockcurrent " +
+                "ON products.id = stockcurrent.product) " +
+                "LEFT JOIN stocklevel ON products.id = stocklevel.product) " +
+                "ON locations.id = stockcurrent.location " +
+                "WHERE products.id = ? " +
+                "AND locations.id = ?"
+        , SerializerWriteString.INSTANCE
+        , ProductStock.getSerializerRead());
 
+        ProductStock productStock2 = (ProductStock) preparedSentence2.find(pId, location);
+        */
         return productStock;
     }     
     

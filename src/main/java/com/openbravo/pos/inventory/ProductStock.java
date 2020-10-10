@@ -177,6 +177,7 @@ public class ProductStock {
                 Double pricebuy = dr.getDouble(6);                
                 Double pricesell = dr.getDouble(7);
                 Date memodate = dr.getTimestamp(8);                
+               // Double stockcost = dr.getDouble(9);             
                 
                 return 
                     new ProductStock(pId, location, units, minimum, maximum, pricebuy, pricesell, memodate);                
