@@ -166,10 +166,10 @@ public class JPanelTicketSetup extends javax.swing.JPanel implements PanelConfig
         m_jReceiptPrintOff = new javax.swing.JCheckBox();
         
         jbtnReset = new javax.swing.JButton();
-	jbtnReset.setVisible(false);
-	jPickupSize.setVisible(false);
+	jbtnReset.setVisible(true);
+	jPickupSize.setVisible(true);
         jTextField2.setText("jTextField2");
-        jLabel2.setVisible(false);
+        jLabel2.setVisible(true);
         
 
         setBackground(new java.awt.Color(255, 255, 255));
@@ -238,8 +238,8 @@ public class JPanelTicketSetup extends javax.swing.JPanel implements PanelConfig
         jbtnReset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         jbtnReset.setText(AppLocal.getIntString("label.resetpickup")); // NOI18N
         jbtnReset.setMaximumSize(new java.awt.Dimension(70, 33));
-        jbtnReset.setMinimumSize(new java.awt.Dimension(0, 0));
-        jbtnReset.setPreferredSize(new java.awt.Dimension(0, 0));
+        jbtnReset.setMinimumSize(new java.awt.Dimension(0, 20));
+        jbtnReset.setPreferredSize(new java.awt.Dimension(50, 25));
         jbtnReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtnResetActionPerformed(evt);
