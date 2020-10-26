@@ -30,7 +30,7 @@ report.setResourceBundle("com/openbravo/reports/sales_messages");
 // Amend: JG uniCenta July 2014
 // Amend: JG uniCenta April 2017
 // Amend: JG uniCenta September 2017
-
+/*
 report.setSentence("SELECT products.REFERENCE, " +
        "products.NAME, " +
        "products.PRICEBUY, " +
@@ -52,6 +52,12 @@ report.setSentence("SELECT products.REFERENCE, " +
     "WHERE ?(QBF_FILTER) " +
     "GROUP BY ticketlines.PRODUCT " +
     "ORDER BY products.REFERENCE ASC");
+*/
+
+report.setSentence("SELECT products.REFERENCE, products.NAME, stockdiary_aggr.PRICEBUY, products.PRICESELL, SUM(ticketlines.UNITS) AS SOLD_UNITS, (stockdiary_aggr.PRICEBUY * SUM(ticketlines.UNITS)) AS COST_VALUE, SUM(ticketlines.UNITS * products.PRICESELL) AS EXPECTED_SALES_VALUE, SUM(ticketlines.UNITS * ticketlines.PRICE) AS ACTUAL_SALES_VALUE, SUM(ticketlines.UNITS * products.PRICESELL) - (stockdiary_aggr.PRICEBUY * SUM(ticketlines.UNITS)) AS EXPECTED_PROFIT, SUM(ticketlines.UNITS * ticketlines.PRICE) - (stockdiary_aggr.PRICEBUY * SUM(ticketlines.UNITS)) AS ACTUAL_PROFIT FROM ( ticketlines ticketlines INNER JOIN receipts receipts ON (ticketlines.TICKET = receipts.ID) ) LEFT OUTER JOIN products products ON (ticketlines.PRODUCT = products.ID) JOIN ( SELECT location, product as ID, sum(PRICEBUY) / sum(units) as PRICEBUY FROM ( SELECT location, product, sum(units * price) as PRICEBUY, sum(units) as units FROM stockdiary WHERE ( ( reason = 1 OR reason = -4 ) ) GROUP BY location, product ) AS cost GROUP BY location, ID ) as stockdiary_aggr ON products.ID = stockdiary_aggr.ID WHERE ?(QBF_FILTER) GROUP BY ticketlines.PRODUCT ORDER BY products.REFERENCE ASC");
+
+
+
 
 report.addParameter("receipts.DATENEW");
 report.addParameter("receipts.DATENEW");
