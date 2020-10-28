@@ -278,6 +278,7 @@ public class JPanelConfigCompany extends javax.swing.JPanel implements PanelConf
         jLogo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLogo.setOpaque(true);
         jLogo.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+		jLogo.setVisible(false);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
