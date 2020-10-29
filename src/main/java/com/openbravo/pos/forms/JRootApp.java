@@ -983,7 +983,7 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
         m_jLblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jPanelTitle.add(m_jLblTitle, java.awt.BorderLayout.CENTER);
 
-        jLabel2.setFont(new java.awt.Font("MingLiU", 1, 16)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("MingLiU", 1, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 102, 102));
         jLabel2.setPreferredSize(new java.awt.Dimension(180, 34));
         m_jPanelTitle.add(jLabel2, java.awt.BorderLayout.LINE_START);
